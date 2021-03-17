@@ -44,6 +44,10 @@ submitButton.addEventListener('click',()=>{
         dots[3].classList.add('dot-ok');
         slideContainer.style.left="-1000px";
         timeline.classList.add('timeline-ok');
+        for (let dot of dots) {
+        dot.replaceWith(dot.cloneNode(true));
+        }
+        //To remove the event listener
 
 
 

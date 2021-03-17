@@ -21,3 +21,104 @@
 
 
 /*Prendre rendez vous*/
+body{
+    background-image: url('src/background/BG_Accueil_Le_Petit_Vintage.jpg');
+    background-size: 150%;
+    color: white;
+
+}
+
+.window{
+    height: 800px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.inactive{
+    display: none;
+}
+#slide-container{
+    height: 800px;
+    width: 8000px;
+    position: absolute;
+    left: 0px;
+    transition: left 0.4s;
+    display: flex;
+
+}
+.slide{
+    height: 800px;
+    width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.timeline{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+.timeline-ok{
+    bottom: 50%;
+    transition: bottom 0.4s;
+}
+.dot{
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.dot-incomplete{
+    background-color: #ef6334;
+    border: none;
+}
+.dot-ok{
+    background-color: #F1B833;
+    border: 2px solid #F1B833;
+}
+.dot-current{
+    border: 5px solid #F1B833;
+}
+
+
+.card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+
+
+
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1B833;
+    border-radius: 20px;
+    width: 80%;
+
+}
+.hair-cut-img{
+    width: 50%;
+    margin: 5px;
+}
+h4{
+    font-size: 0.8em;
+}
+.error-display{
+    color: #ef6334;
+}
+
+
+

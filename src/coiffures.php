@@ -10,7 +10,7 @@ $hairstyles = [
         'new' => true,
     ],
     [
-        'name' => 'pink',
+        'name' => 'Pink',
         'image' => 'src/Coiffures/pink.jpg',
         'description' => 'Alecia Moore, dite Pink, née le 8 septembre 1979 à Doylestown, en Pennsylvanie, est une chanteuse et actrice américaine. ',
         'hairlength' => 'long hair',

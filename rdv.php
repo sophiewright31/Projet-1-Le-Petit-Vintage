@@ -31,14 +31,11 @@
                 <div class="card-container">
                     <div id="hair-cut-selector" class="card">
                         <select name="hair-cut-choice" id="hair-cut-choice">
-                            <option value="cut1">cut1</option>
-                            <option value="cut2">cut2</option>
-                            <option value="cut3">cut3</option>
-                            <option value="cut4">cut4</option>
-                            <option value="cut5">cut5</option>
-                            <option value="cut6">cut6</option>
+                            <?php foreach ($hairstyles as $hairstyle):?>
+                                <option class="hair-cut-option" value="<?=$hairstyle['image']?>"><?=$hairstyle['name']?></option>
+                            <?php endforeach;?>
                         </select>
-                        <img src="https://picsum.photos/100/100?random=2" alt="" id="hair-cut-img">
+                        <img src="" alt="" id="hair-cut-img">
                     <button id= "submit1" class="slideButton next">Ok</button>
                     </div>
                 </div>
@@ -100,5 +97,6 @@
     </div>
 
     <script src="slides.js"></script>
+    <script src="haircut.js"></script>
 </body>
 </html>

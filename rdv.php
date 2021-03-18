@@ -1,3 +1,4 @@
+<?php require 'src/coiffures.php'?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,8 +10,7 @@
     <title>Le petit Vintage prendre rendez vous</title>
 </head>
 <body>
-
-    <div class="window">
+<div class="window">
         <div id="slide-container">
             <div class="slide" id="slide1">
                 <h2>Vos coordonnées </h2>

@@ -23,7 +23,7 @@
 /*Prendre rendez vous*/
 body{
     background-image: url('src/background/BG_Accueil_Le_Petit_Vintage.jpg');
-    background-size: 150%;
+    background-size: cover;
     color: white;
 
 }

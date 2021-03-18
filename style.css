@@ -55,7 +55,12 @@ body{
     flex-direction: column;
 
 }
-
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
 
 
 .timeline{
@@ -95,10 +100,6 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 80%;
-
-
-
-
 }
 .card{
     display: flex;
@@ -116,8 +117,11 @@ body{
 h4{
     font-size: 0.8em;
 }
-.error-display{
+.alert{
     color: #ef6334;
+}
+#submit0{
+    height: 3em;
 }
 
 

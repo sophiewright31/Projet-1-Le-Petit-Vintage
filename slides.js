@@ -48,10 +48,5 @@ submitButton.addEventListener('click',()=>{
         dot.replaceWith(dot.cloneNode(true));
         }
         //To remove the event listener
-
-
-
-
     }
-
 })

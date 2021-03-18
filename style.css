@@ -1,6 +1,167 @@
 /*Nav*/
 
 
+p{
+    color: #F0F2F4;
+}
+
+.header{
+    padding-top: 20px;
+    /*background-color: #262626;*/
+}
+
+.header-content{
+    display: flex;
+    width: 100%;
+}
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100% ;
+    padding:5px;
+
+}
+
+
+/*SCREEN*/
+
+@media screen and (min-width: 800px) {
+
+    body{
+        width: 100%;
+        margin:0;
+        paddin:0;
+        background-color: #262626;
+    }
+
+            .content {
+                        width: 100%;
+                        margin-bottom: 20px;
+                        flex: content;
+
+                     }
+            .navStyle {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-around;
+                      }
+
+            a{
+                        text-decoration:none;
+                        color: #F0F2F4;
+                    }
+            .button{
+
+                        font-family: "Arial";
+                        margin: 5px;
+                     }
+}
+
+/* MOBILE*/
+@media screen and (max-width: 800px) {
+
+
+    /*Burger*/
+    .burger-menu{
+        width: 70px;
+        height: 40px;
+        position: fixed;
+        top: 150px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        /*background-color: #ffd64f;*/
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .burger-menu span {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: #ffd64f;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .burger-menu span::before, .burger-menu span::after{
+        display: block;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background-color: #ffd64f;
+    }
+    .burger-menu span::before{
+        transform: translateY(-20px);
+    }
+
+    .burger-menu span::after{
+        transform: translateY(20px);
+    }
+    /*BODY*/
+    body{
+        width: 100%;
+        margin:0;
+        paddin:0;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 20px;
+        flex: content;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(4,4,5,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+
+    }
+
+    .navStyle {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        list-style-type:none;
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    a{
+
+        text-decoration:none;
+        color: #f0f2f4;
+    }
+
+    .button{
+
+        font-family: "Arial";
+        margin: 30px;
+
+    }
+
+} ;
+*/
+
+
+
+
+
 
 /*Footer*/
 

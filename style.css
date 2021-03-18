@@ -42,7 +42,7 @@ body{
     height: 800px;
     width: 8000px;
     position: absolute;
-    left: 0px;
+    left: -250px;
     transition: left 0.4s;
     display: flex;
 
@@ -104,15 +104,11 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #F1B833;
     border-radius: 20px;
     width: 80%;
 
-}
-.hair-cut-img{
-    width: 50%;
-    margin: 5px;
 }
 h4{
     font-size: 0.8em;
@@ -123,6 +119,18 @@ h4{
 #submit0{
     height: 3em;
 }
+#hair-cut-selector{
+    height: 50%;
+}
+#hair-cut-choice{
+    text-align: center;
+    color: white;
+    background-color: #F1B833;
+    font-size: 1.5em;
+}
 
 
 
+.hair-cut-img{
+
+}

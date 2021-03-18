@@ -27,18 +27,21 @@
                 </div>
             </div>
             <div class="slide" id="slide2">
-                <h2>Prestations choisies </h2>
-                <h3>Votre choix de coupe de cheveux </h3>
-                <select name="hair-cut-choice" id="hair-cut-choice">
-                    <option value="cut1">cut1</option>
-                    <option value="cut2">cut2</option>
-                    <option value="cut3">cut3</option>
-                    <option value="cut4">cut4</option>
-                    <option value="cut5">cut5</option>
-                    <option value="cut6">cut6</option>
-                </select>
-                <img src="https://picsum.photos/100/100?random=2" alt="" id="hair-cut-img">
-                <button id= "submit1" class="slideButton next">Ok</button>
+                <h2>Votre choix de coupe de cheveux </h2>
+                <div class="card-container">
+                    <div id="hair-cut-selector" class="card">
+                        <select name="hair-cut-choice" id="hair-cut-choice">
+                            <option value="cut1">cut1</option>
+                            <option value="cut2">cut2</option>
+                            <option value="cut3">cut3</option>
+                            <option value="cut4">cut4</option>
+                            <option value="cut5">cut5</option>
+                            <option value="cut6">cut6</option>
+                        </select>
+                        <img src="https://picsum.photos/100/100?random=2" alt="" id="hair-cut-img">
+                    <button id= "submit1" class="slideButton next">Ok</button>
+                    </div>
+                </div>
             </div>
             <div class="slide" id="slide3">
                 <h2>Votre coiffeuse</h2>
@@ -97,6 +100,5 @@
     </div>
 
     <script src="slides.js"></script>
-    <script src="checkForm"></script>
 </body>
 </html>

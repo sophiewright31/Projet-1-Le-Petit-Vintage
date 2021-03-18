@@ -45,21 +45,21 @@
             </div>
             <div class="slide" id="slide3">
                 <h2>Votre coiffeuse</h2>
-                <div class="card-container">
+                <div class="card-container" id="hairdressers">
                     <div class="card">
                         <h4>coiffeuse1</h4>
-                        <img src="https://picsum.photos/200/200?grayscale&random=4" alt="" class="hair-cut-img" >
-                        <button id= "submit20" class="next">choisir</button>
+                        <img src="https://picsum.photos/300/200?grayscale&random=4" alt="" class="hair-cut-img" >
+                        <button id= "submit20" class="next choose-me">Choisir</button>
                     </div>
                     <div class="card">
                         <h4>coiffeuse2</h4>
-                        <img src="https://picsum.photos/200/200?grayscale&random=6" alt="" class="hair-cut-img">
-                        <button id= "submit21" class="next">choisir</button>
+                        <img src="https://picsum.photos/300/200?grayscale&random=6" alt="" class="hair-cut-img">
+                        <button id= "submit21" class="next choose-me">Choisir</button>
                     </div>
                     <div class="card">
                         <h4>coiffeuse3</h4>
-                        <img src="https://picsum.photos/200/200?grayscale&random=5" alt="" class="hair-cut-img" >
-                        <button id= "submit22" class="next">choisir</button>
+                        <img src="https://picsum.photos/300/200?grayscale&random=5" alt="" class="hair-cut-img" >
+                        <button id= "submit22" class="next choose-me">Choisir</button>
                     </div>
                 </div>
             </div>

@@ -17,6 +17,7 @@ $hairstyles = [
         'price' => '85€',
         'time' => '2h30min',
         'new' => true,
+
     ],
     [
         'name' => 'Curly Peanut',
@@ -55,4 +56,4 @@ $hairstyles = [
         'new' => false,
     ],
 ];
-
+?>

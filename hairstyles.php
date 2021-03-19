@@ -12,7 +12,7 @@
     <div class= 'container flex-around'>
     <?php foreach($hairstyles as $hairstyleData): ?>
         <div class="card <?= $hairstyleData['new'] ? 'new-card' : ''?>">
-        <img src="https://picsum.photos/250/100?random=<?= rand(1,100) ?>" alt=''>
+        <img src="<?= $hairstyleData['image'] ?>" alt=''>
         <h2><?= $hairstyleData['name'] ?></h2>
         <p>
             <?= $hairstyleData['description'] ?>

@@ -1,262 +1,262 @@
 /*Nav*/
 
 
-p{
-    color: #F0F2F4;
-}
+/*p{*/
+/*    color: #F0F2F4;*/
+/*}*/
 
-.header{
-    padding-top: 20px;
-    /*background-color: #262626;*/
-}
+/*.header{*/
+/*    padding-top: 20px;*/
+/*    !*background-color: #262626;*!*/
+/*}*/
 
-.header-content{
-    display: flex;
-    width: 100%;
-}
+/*.header-content{*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*}*/
 
-.Logo{
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    width: 100% ;
-    padding:5px;
+/*.Logo{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 70px;*/
+/*    width: 100% ;*/
+/*    padding:5px;*/
 
-}
-
-
-/*SCREEN*/
-
-@media screen and (min-width: 800px) {
-
-    body{
-        width: 100%;
-        margin:0;
-        paddin:0;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-            .content {
-                        width: 100%;
-                        margin-bottom: 20px;
-                        flex: content;
-
-                     }
-            .navStyle {
-                        list-style-type: none;
-                        display: flex;
-                        justify-content: space-around;
-                      }
-
-            a{
-                        text-decoration:none;
-                        color: #F0F2F4;
-                    }
-            .button{
-
-                        font-family: "Arial";
-                        margin: 5px;
-                     }
-}
-
-/* MOBILE*/
-@media screen and (max-width: 800px) {
+/*}*/
 
 
-    /*Burger*/
-    .burger-menu{
-        width: 70px;
-        height: 40px;
-        position: fixed;
-        top: 150px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        text-align: center;
-        /*background-color: #ffd64f;*/
-        border-radius: 20px;
-        cursor: pointer;
-    }
-    .burger-menu span {
-        display: block;
-        width: 100%;
-        height: 5px;
-        background-color: #ffd64f;
-        position: absolute;
-        top:50%;
-        transform: translateY(-50%);
-    }
-    .burger-menu span::before, .burger-menu span::after{
-        display: block;
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 5px;
-        background-color: #ffd64f;
-    }
-    .burger-menu span::before{
-        transform: translateY(-20px);
-    }
+/*!*SCREEN*!*/
 
-    .burger-menu span::after{
-        transform: translateY(20px);
-    }
-    /*BODY*/
-    body{
-        width: 100%;
-        margin:0;
-        paddin:0;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+/*@media screen and (min-width: 800px) {*/
 
-    .content {
-        width: 100%;
-        margin-bottom: 20px;
-        flex: content;
-        position: fixed;
-        top:0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgb(4,4,5,0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow-y: auto;
+/*    body{*/
+/*        width: 100%;*/
+/*        margin:0;*/
+/*        paddin:0;*/
+/*        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);*/
+/*        background-repeat: no-repeat;*/
+/*        background-position: center center;*/
+/*        background-attachment: fixed;*/
+/*        background-size: cover;*/
+/*    }*/
 
-    }
+/*            .content {*/
+/*                        width: 100%;*/
+/*                        margin-bottom: 20px;*/
+/*                        flex: content;*/
 
-    .navStyle {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        position: relative;
-        list-style-type:none;
-        text-align: center;
-        display: block;
-        font-size: 30px;
-        font-weight: 200;
-    }
+/*                     }*/
+/*            .navStyle {*/
+/*                        list-style-type: none;*/
+/*                        display: flex;*/
+/*                        justify-content: space-around;*/
+/*                      }*/
 
-    a{
+/*            a{*/
+/*                        text-decoration:none;*/
+/*                        color: #F0F2F4;*/
+/*                    }*/
+/*            .button{*/
 
-        text-decoration:none;
-        color: #f0f2f4;
-    }
+/*                        font-family: "Arial";*/
+/*                        margin: 5px;*/
+/*                     }*/
+/*}*/
 
-    .button{
-
-        font-family: "Arial";
-        margin: 30px;
-
-    }
-
-} ;
-*/
+/*!* MOBILE*!*/
+/*@media screen and (max-width: 800px) {*/
 
 
+/*    !*Burger*!*/
+/*    .burger-menu{*/
+/*        width: 70px;*/
+/*        height: 40px;*/
+/*        position: fixed;*/
+/*        top: 150px;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        text-align: center;*/
+/*        !*background-color: #ffd64f;*!*/
+/*        border-radius: 20px;*/
+/*        cursor: pointer;*/
+/*    }*/
+/*    .burger-menu span {*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*        height: 5px;*/
+/*        background-color: #ffd64f;*/
+/*        position: absolute;*/
+/*        top:50%;*/
+/*        transform: translateY(-50%);*/
+/*    }*/
+/*    .burger-menu span::before, .burger-menu span::after{*/
+/*        display: block;*/
+/*        content: '';*/
+/*        position: absolute;*/
+/*        width: 100%;*/
+/*        height: 5px;*/
+/*        background-color: #ffd64f;*/
+/*    }*/
+/*    .burger-menu span::before{*/
+/*        transform: translateY(-20px);*/
+/*    }*/
+
+/*    .burger-menu span::after{*/
+/*        transform: translateY(20px);*/
+/*    }*/
+/*    !*BODY*!*/
+/*    body{*/
+/*        width: 100%;*/
+/*        margin:0;*/
+/*        paddin:0;*/
+/*        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);*/
+/*        background-repeat: no-repeat;*/
+/*        background-position: center center;*/
+/*        background-attachment: fixed;*/
+/*        background-size: cover;*/
+/*    }*/
+
+/*    .content {*/
+/*        width: 100%;*/
+/*        margin-bottom: 20px;*/
+/*        flex: content;*/
+/*        position: fixed;*/
+/*        top:0;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        bottom: 0;*/
+/*        background-color: rgb(4,4,5,0.5);*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        overflow-y: auto;*/
+
+/*    }*/
+
+/*    .navStyle {*/
+/*        list-style-type: none;*/
+/*        display: flex;*/
+/*        justify-content: space-around;*/
+/*        position: relative;*/
+/*        list-style-type:none;*/
+/*        text-align: center;*/
+/*        display: block;*/
+/*        font-size: 30px;*/
+/*        font-weight: 200;*/
+/*    }*/
+
+/*    a{*/
+
+/*        text-decoration:none;*/
+/*        color: #f0f2f4;*/
+/*    }*/
+
+/*    .button{*/
+
+/*        font-family: "Arial";*/
+/*        margin: 30px;*/
+
+/*    }*/
+
+/*} ;*/
+/**!*/
 
 
 
 
-/*Footer*/
-
-.footer-content{
-    width: 100%;
-    height: 70px;
-    background-color: #f16b6c;
-}
 
 
-/*Accueil*/
-@media (max-width: 640px) {
-	* {
-		box-sizing: border-box;
-	}
+/*!*Footer*!*/
 
-body {
-  text-align: center;
-
-}
-
-.background-image {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  display: block;
-  background-image: url("Img_accueil.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  filter: opacity(.5);
-}
+/*.footer-content{*/
+/*    width: 100%;*/
+/*    height: 70px;*/
+/*    background-color: #f16b6c;*/
+/*}*/
 
 
-section {
-  display: contents;
-}
+/*!*Accueil*!*/
+/*@media (max-width: 640px) {*/
+/*	* {*/
+/*		box-sizing: border-box;*/
+/*	}*/
 
-h1 {
-  border: 1px solid blue;
-  font-family: 'Eurostile', sans-serif;
-  font-weight: bold;
-  height: auto;
-  width: auto;
-  margin-top: 50px;
-  margin-bottom: 15px;
-}
+/*body {*/
+/*  text-align: center;*/
 
-button {
- display: inline-block;
- box-sizing: border-box;
- font-family:'Roboto',sans-serif;
- font-size: 60px;
- color: #FFD700;
- background-color: transparent;
- text-align:center;
- height: 75px;
- width: 75px;
- margin-bottom: 10px;
-}
+/*}*/
 
-button:hover{
-  color: #FFD700;
-  background-color: transparent;
-}
+/*.background-image {*/
+/*  position: fixed;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  z-index: 1;*/
+/*  display: block;*/
+/*  background-image: url("Img_accueil.jpg");*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center center;*/
+/*  background-attachment: fixed;*/
+/*  background-size: cover;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  filter: opacity(.5);*/
+/*}*/
 
-h2 {
-  border: 1px solid blue;
-  color: 	#FFD700;
-  font-size: 35px;
-  font-family: 'Eurostile', sans-serif;
-  height: auto;
-  width: auto;
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
 
-li {
-  border: 1px solid blue;
-  color: 	black;
-  list-style: none;
-  font-size: 25px;
-  font-family: Arial, sans-serif;
-  height: 35px;
-  width: 90%;
-  margin-top: 35px;
-}
+/*section {*/
+/*  display: contents;*/
+/*}*/
+
+/*h1 {*/
+/*  border: 1px solid blue;*/
+/*  font-family: 'Eurostile', sans-serif;*/
+/*  font-weight: bold;*/
+/*  height: auto;*/
+/*  width: auto;*/
+/*  margin-top: 50px;*/
+/*  margin-bottom: 15px;*/
+/*}*/
+
+/*button {*/
+/* display: inline-block;*/
+/* box-sizing: border-box;*/
+/* font-family:'Roboto',sans-serif;*/
+/* font-size: 60px;*/
+/* color: #FFD700;*/
+/* background-color: transparent;*/
+/* text-align:center;*/
+/* height: 75px;*/
+/* width: 75px;*/
+/* margin-bottom: 10px;*/
+/*}*/
+
+/*button:hover{*/
+/*  color: #FFD700;*/
+/*  background-color: transparent;*/
+/*}*/
+
+/*h2 {*/
+/*  border: 1px solid blue;*/
+/*  color: 	#FFD700;*/
+/*  font-size: 35px;*/
+/*  font-family: 'Eurostile', sans-serif;*/
+/*  height: auto;*/
+/*  width: auto;*/
+/*  margin-top: 10px;*/
+/*  margin-bottom: 50px;*/
+/*}*/
+
+/*li {*/
+/*  border: 1px solid blue;*/
+/*  color: 	black;*/
+/*  list-style: none;*/
+/*  font-size: 25px;*/
+/*  font-family: Arial, sans-serif;*/
+/*  height: 35px;*/
+/*  width: 90%;*/
+/*  margin-top: 35px;*/
+/*}*/
 
 
 /*Qui sommes nous*/
@@ -301,119 +301,6 @@ flex-wrap: wrap;
 
 /*Prendre rendez vous*/
 <<<<<<< HEAD
-body{
-    background-image: url('src/background/BG_Accueil_Le_Petit_Vintage.jpg');
-    background-size: cover;
-    color: white;
-
-}
-
-.window{
-    height: 800px;
-    width: 250px;
-    position: relative;
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-.inactive{
-    display: none;
-}
-#slide-container{
-    height: 800px;
-    width: 8000px;
-    position: absolute;
-    left: 0px;
-    transition: left 0.4s;
-    display: flex;
-
-}
-.slide{
-    height: 800px;
-    width: 250px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
-}
-.container-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50%;
-}
 
 
-.timeline{
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 20px;
-    width: 100%;
-}
-.timeline-ok{
-    bottom: 50%;
-    transition: bottom 0.4s;
-}
-.dot{
-    width: 2em;
-    height: 2em;
-    display: inline-block;
-    border: 1px solid white;
-    border-radius: 50%;
-}
-.dot-incomplete{
-    background-color: #ef6334;
-    border: none;
-}
-.dot-ok{
-    background-color: #F1B833;
-    border: 2px solid #F1B833;
-}
-.dot-current{
-    border: 5px solid #F1B833;
-}
 
-
-.card-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 80%;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #F1B833;
-    border-radius: 20px;
-    width: 80%;
-
-}
-.alert{
-    color: #ef6334;
-}
-#submit0{
-    height: 3em;
-}
-#hair-cut-selector{
-    height: 50%;
-}
-#hair-cut-choice{
-    text-align: center;
-    color: white;
-    background-color: #F1B833;
-    font-size: 1.5em;
-}
-
-#hairdressers .card {
-    width: 60%;
-    text-align: center;
-}
-.choose-me {
-    margin-bottom: 17px;
-}
-
-
-=======
->>>>>>> julien/accueil

@@ -33,7 +33,11 @@ p{
         width: 100%;
         margin:0;
         paddin:0;
-        background-color: #262626;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
             .content {
@@ -164,6 +168,12 @@ p{
 
 
 /*Footer*/
+
+.footer-content{
+    width: 100%;
+    height: 70px;
+    background-color: #f16b6c;
+}
 
 
 /*Accueil*/

@@ -10,7 +10,7 @@ $headDressers = [
     [
         'name' => 'Clothilde',
         'specialty' => ['Pink', 'Eiffel 65'],
-        'image' => 'src/Coiffeuses/ClohildeCoiff2.jpg',
+        'image' => 'src/Coiffeuses/ClothildeCoiff2.jpg',
         'imageBW' => 'src/Coiffeuses/ClohildeCoiff2BW.jpg',
 
     ],

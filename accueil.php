@@ -1,43 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Petit Vintage</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="src/styleAccueil.css">
+    <title>Accueil</title>
+
 </head>
+
 <body>
-  <div class="background-image"></div>
-  <div class="content"></div>
 
- <section class="enseigne">
-     <h1><img src="LOGO.png" width="60%" height="60%"/></h1>
- </section>
-
-
-  <button type="button" name="closeMenu">X</button>
+ <section>
+ <div class="header">
+  <div class="header-content">
+     <div class="Logo"> <img id="LogoImg" src="src/logo/LOGO.png" width="50%" height="50%"></div>
+  </div>
+</div>
+</section>
 
  <section class="menu">
-     <h2>Menu</h2>
+     <h1 style="font-size:8vw;">Menu</h1>
  </section>
 
- <section class="navigation">
-  <ul>
-    <div class="Who">
-      <li><a href="qui-sommes-nous.php">Qui sommes nous ?</a></li>
-    </div>
-    <div class="What">
-      <li><a href="coiffures.php">Nos coiffures</a></li>
-    </div>
-    <div class="How">
-      <li><a href="contact.php">Tarif/contact</a></li>
-    </div>
-    <div class="RDV">
-      <li><a href="rdv.php">Prenez rendez-vous !</a></li>
-    </div>
-  </ul>
- </section>
+<section>
+  <div class="tramme"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>
+</section>
 
+<section class="who">
+  <div class="card-who">
+    <div class="card-who-header">
+      <h2>Qui sommes nous ?</h2>
+    </div>
+    <div class="card-who-body">
+      <p class="card-who-text">Lorem ipsum dolor sit amet, consectetur
+                               adipiscing elit, sed do eiusmod tempor
+                               ncididunt ut labore et dolore magna aliqua. Ut
+                               enim ad minim veniam, quis nostrud xercitation
+                               ullamco laboris nisi ut aliquip ex ea commodo
+                               consequat. Duis aute irure dolor in
+                               eprehenderit in voluptate velit esse cillum
+                               dolore eu fugiat nulla pariatur. Excepteur sint
+                               occaecat cupidatat non proident, sunt in culpa
+                               qui officia deserunt mollit anim id est laborum</p>
+      <button class="card-who-button" href="Qui-sommes-nous?.php">Lire la suite</button>
+    </div>
+  </div>
+</section>
+
+<section class="which">
+  <div class="card-vintage">
+    <div class="card-header">
+      <h2>...une coupe vintage ?</h2>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit, sed do eiusmod tempor
+                           ncididunt ut labore</p>
+    </div>
+   <div class="vintage-choice">
+     <article><img src="src/Coiffures/bonProfil.jpg" height="100%" width="100%"></article>
+     <article><img src="src/Coiffures/myBad.jpg" height="100%" width="100%"></article>
+     <article>Choice 3</article>
+     <article><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
+   </div>
+ </div>
+</section>
+
+<section class="which">
+  <div class="card-classique middle-card">
+    <div class="card-header middle-card">
+      <h2>...une coupe classique ?</h2>
+    </div>
+    <div class="card-body middle-card">
+      <p class="card-text middle-card">Lorem ipsum dolor sit amet, consectetur
+                                       adipiscing elit, sed do eiusmod tempor
+                                       ncididunt ut labore</p>
+    </div>
+   <div class="classique-choice">
+     <article><img src="src/Coiffures/pink.jpg" height="100%" width="100%"></article>
+     <article><img src="src/Coiffures/eiffel65.jpg" height="100%" width="100%"></article>
+     <article class="color-choise">Choice 3</article>
+     <article class="color-choise"><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
+   </div>
+  </div>
+</section>
+
+</article>
+<section class="which">
+  <div class="card-rebel">
+    <div class="card-header">
+      <h2>...cheveux rebels ?</h2>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit, sed do eiusmod tempor
+                           ncididunt ut labore</p>
+    </div>
+   <div class="rebel-choice">
+     <article><img src="src/Coiffures/curlyPeanut.jpg" height="100%" width="100%"></article>
+     <article><img src="src/Coiffures/detresse.jpg" height="100%" width="100%"></article>
+     <article>Choice 3</article>
+     <article><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
+   </div>
+  </div>
+</section>
 
 </body>
 </html>

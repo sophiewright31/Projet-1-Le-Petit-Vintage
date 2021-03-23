@@ -1,0 +1,59 @@
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 20px;
+        flex: content;
+
+    }
+
+    .title {
+      font-size: 15px;
+      color: #E3A127;
+      text-decoration: underline;
+      font-style: italic;
+    }
+
+    .text {
+      font-size: 11px;
+      color: #F0F2F4;
+    }
+
+    .team {
+      font-size: 14px;
+      color: #E3A127;
+      text-decoration: underline;
+    }
+
+    .container {
+      color: #E3A127;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .coiffeusesName {
+      font-style: italic;
+      font-size: 13px;
+    }
+
+    .coiffeusesSpe {
+      font-size: 12px;
+    }
+
+    .card {
+      border: 1px solid #E3A127;
+    }
+
+    img {
+      width: 50%;
+      height: 50%;
+    }

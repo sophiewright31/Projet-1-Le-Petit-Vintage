@@ -1,0 +1,232 @@
+@media screen and (max-width: 800px) {
+
+  body {
+      width: 100%;
+      margin:0;
+      paddin:0;
+      background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+
+  .header {
+      padding-top: 50px;
+  }
+
+  .header-content {
+      display: flex;
+      width: 100%;
+  }
+
+  .Logo {
+      display: flex;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+      padding:5px;
+  }
+
+  .menu {
+    text-align: center;
+    color: #E3A127;
+    text-decoration: double underline overline #E3A127;
+    font-family: "Arial Narrow", sans-serif;
+  }
+
+  .tramme {
+    text-align: center;
+    margin-top: 490px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .who {
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
+  .card-who {
+    text-align: center;
+    border: 2px solid white;
+    background-color: #E3A127;
+    border-radius: 30px;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px #555;
+    margin-bottom: 150px;
+  }
+
+  .card-who-header {
+    color: white;
+    font-size: 15px;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-who-body {
+    background-color: white;
+    height: auto;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10% / 50%;
+  }
+
+  .card-who-body p {
+    margin: 10px 0px;
+  }
+
+  .card-who-text {
+    font-size: 12px;
+    font-family: Arial sans-serif;
+  }
+
+  .card-who-button {
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 45px;
+    background-color: #E3A127;
+    width: 40%;
+  }
+
+  button:hover {
+    text-decoration: underline;
+  }
+
+  .which {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .card-header {
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-body {
+    color: white;
+    height: auto;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    font-family: Arial sans-serif;
+  }
+
+  .card-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+
+  article {
+    text-align: center;
+    height: auto;
+    width: 23%;
+    background-color: grey;
+    color: white;
+  }
+
+  .color-choise {
+    background-color: #E3A127;
+  }
+
+  .card-vintage {
+    background-image: url("Cards/pretty-woman-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 4px solid grey;
+    border-radius: 30px;
+    width: 90%;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px #555;
+  }
+
+  .vintage-choice {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 65%;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .card-classique {
+    background-image: url("Cards/pretty-woman-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 4px solid #E3A127;
+    border-radius: 30px;
+    width: 90%;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px #555;
+  }
+
+  .classique-choice {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 65%;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .card-rebel {
+    background-image: url("Cards/pretty-woman-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 4px solid grey;
+    border-radius: 30px;
+    width: 90%;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px #555;
+  }
+
+  .rebel-choice {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 65%;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .middle-card {
+  }
+
+}

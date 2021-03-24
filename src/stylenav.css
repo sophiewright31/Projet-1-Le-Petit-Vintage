@@ -144,10 +144,8 @@ p{
 
     .navStyle {
         list-style-type: none;
-        display: flex;
         justify-content: space-around;
         position: relative;
-        list-style-type:none;
         text-align: center;
         display: block;
         font-size: 30px;

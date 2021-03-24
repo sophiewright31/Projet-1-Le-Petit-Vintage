@@ -27,7 +27,7 @@ h3 {
 
 .card img {
     border-top-left-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .flex-around {
@@ -37,6 +37,7 @@ h3 {
 
 .hairstyleimg {
     width: 100%;
+    box-shadow: 1px 1px 15px #555;
 }
 
 .container {
@@ -49,6 +50,11 @@ h3 {
 
 .new-card {
     background-color: #E3A127;
+    background-image: url(https://icons-for-free.com/download-icon-new+product+icon-1320165997431680647_512.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:130px, 130px;
+
 }
 
 p{
@@ -62,8 +68,7 @@ p{
     body{
         width: 100%;
         margin-top: 50px;
-        paddin:0;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+       background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
@@ -76,7 +81,6 @@ p{
     body{
         width: 100%;
         margin-top: 30px;
-        paddin:0;
         background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
         background-repeat: no-repeat;
         background-position: center center;

@@ -11,6 +11,53 @@
       background-size: cover;
   }
 
+  .card-who {
+    width: 80%;
+  }
+
+    .card-vintage {
+      width: 90%;
+  }
+
+    .card-classique {
+      width: 90%;
+    }
+
+    .card-rebel {
+      width: 90%;
+    }
+}
+
+  /* PC */
+  @media screen and (min-width: 800px) {
+    body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .card-who {
+      width: 50%;
+    }
+
+    .card-vintage {
+      width: 50%;
+    }
+
+    .card-classique {
+      width: 50%;
+    }
+
+    .card-rebel {
+      width: 50%;
+    }
+}
+
   .require {
     height: 100px;
   }
@@ -40,7 +87,6 @@
     border: 2px solid white;
     background-color: #E3A127;
     border-radius: 30px;
-    width: 80%;
     height: auto;
     margin: auto;
     display: flex;
@@ -88,18 +134,21 @@
   .which {
     margin-top: 0px;
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .card-header {
     color: white;
-    height: auto;
+    height: 35px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .card-body {
     color: white;
-    height: auto;
+    height: 100px;
     width: 70%;
     margin-left: 10px;
     margin-right: 10px;
@@ -120,214 +169,10 @@
   article {
     text-align: center;
     height: auto;
-    width: 23%;
+    width: 28%;
     background-color: grey;
     color: white;
-  }
-
-  .color-choise {
-    background-color: #E3A127;
-  }
-
-  .card-vintage {
-    background-image: url("Cards/pretty-woman-1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 102% 100%;
-    border: 4px solid grey;
-    border-radius: 30px;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
     box-shadow: 1px 1px 15px #555;
-  }
-
-  .vintage-choice {
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
-    height: auto;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .card-classique {
-    background-image: url("Cards/pretty-woman-2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 102% 100%;
-    border: 4px solid #E3A127;
-    border-radius: 30px;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    box-shadow: 1px 1px 15px #555;
-  }
-
-  .classique-choice {
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
-    height: auto;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-
-  .card-rebel {
-    background-image: url("Cards/pretty-woman-3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 102% 102%;
-    border: 4px solid grey;
-    border-radius: 30px;
-    width: 90%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 1px 15px #555;
-  }
-
-  .rebel-choice {
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
-    height: auto;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
-/* PC */
-@media screen and (min-width: 800px) {
-  body {
-      width: 100%;
-      margin:0;
-      paddin:0;
-      background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
-  }
-
-  .menu {
-    text-align: center;
-    color: #E3A127;
-    text-decoration: double underline overline #E3A127;
-    font-family: "Eurostile", sans-serif;
-  }
-
-  .tramme {
-    text-align: center;
-    margin-top: 490px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .who {
-    margin-top: 0px;
-    margin-bottom: 150px;
-  }
-
-  .card-who {
-    align-items: center;
-    text-align: center;
-    border: 2px solid white;
-    background-color: #E3A127;
-    border-radius: 30px;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 1px 15px #555;
-  }
-
-  .card-who-header {
-    color: white;
-  }
-
-  .card-who-body {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 80%;
-    height: auto;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    border-radius: 10% / 50%;
-  }
-
-  .card-who-body p {
-    margin: 10px 0px;
-  }
-
-  .card-who-text {
-    font-family:  "Eurostile", sans-serif;
-  }
-
-  .card-who-button {
-    border: none;
-    color: white;
-    border-radius: 10px;
-    height: auto;
-    background-color: #E3A127;
-    width: auto;
-  }
-
-  button:hover {
-    text-decoration: underline;
-  }
-
-  .which {
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-
-  .card-header {
-    color: white;
-    height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .card-body {
-    color: white;
-    height: auto;
-    width: 70%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .card-text {
-    font-family: Arial sans-serif;
-  }
-
-  .card-button {
-    border: none;
-    background-color: transparent;
-    color: white;
-    height: 100%;
-    width: 100%;
-  }
-
-  article {
-    text-align: center;
-    height: auto;
-    width: 23%;
-    background-color: grey;
-    color: white;
   }
 
   .color-choise {
@@ -341,7 +186,6 @@
     background-size: 115%;
     border: 4px solid grey;
     border-radius: 30px;
-    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -352,8 +196,8 @@
   .vintage-choice {
     display: flex;
     justify-content: space-around;
-    width: 65%;
-    height: auto;
+    width: 60%;
+    height: 50px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -366,7 +210,6 @@
     background-size: 115%;
     border: 4px solid #E3A127;
     border-radius: 30px;
-    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -378,8 +221,8 @@
   .classique-choice {
     display: flex;
     justify-content: space-around;
-    width: 65%;
-    height: auto;
+    width: 60%;
+    height: 50px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -393,7 +236,6 @@
     background-size: 115%;
     border: 4px solid grey;
     border-radius: 30px;
-    width: 90%;
     height: auto;
     margin: auto;
     display: flex;
@@ -404,10 +246,9 @@
   .rebel-choice {
     display: flex;
     justify-content: space-around;
-    width: 65%;
-    height: auto;
+    width: 60%;
+    height: 50px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
   }
-}

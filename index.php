@@ -51,7 +51,6 @@
         <div class="vintage-choice">
             <article><img src="src/Coiffures/bonProfil.jpg" height="100%" width="100%"></article>
             <article><img src="src/Coiffures/myBad.jpg" height="100%" width="100%"></article>
-            <article>Choice 3</article>
             <article><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
         </div>
     </div>
@@ -70,7 +69,6 @@
         <div class="classique-choice">
             <article><img src="src/Coiffures/pink.jpg" height="100%" width="100%"></article>
             <article><img src="src/Coiffures/eiffel65.jpg" height="100%" width="100%"></article>
-            <article class="color-choise">Choice 3</article>
             <article class="color-choise"><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
         </div>
     </div>
@@ -90,7 +88,6 @@
         <div class="rebel-choice">
             <article><img src="src/Coiffures/curlyPeanut.jpg" height="100%" width="100%"></article>
             <article><img src="src/Coiffures/detresse.jpg" height="100%" width="100%"></article>
-            <article>Choice 3</article>
             <article><button class="card-button" href="hairstyles.php">voir la suite ></button></article>
         </div>
     </div>

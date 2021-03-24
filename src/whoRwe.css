@@ -1,31 +1,48 @@
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+@media screen and (max-width: 800px) {
+  body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+  }
+ }
 
-    .content {
-        width: 100%;
-        margin-bottom: 20px;
-        flex: content;
-
-    }
-
+@media screen and (min-width: 800px) {
+  body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+  }
+}
     .title {
       font-size: 15px;
       color: #E3A127;
       text-decoration: underline;
       font-style: italic;
+      margin-top: 100px;
     }
 
     .text {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
       font-size: 11px;
+      width: auto;
       color: #F0F2F4;
+      margin-left: 140px;
+      margin-right: 140px;
     }
 
     .team {
@@ -35,25 +52,50 @@
     }
 
     .container {
-      color: #E3A127;
+      color: black;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-around;
+      margin-bottom: 100px;
+      flex-wrap: wrap;
     }
 
     .coiffeusesName {
       font-style: italic;
       font-size: 13px;
+      display: flex;
+      justify-content: center;
     }
 
     .coiffeusesSpe {
       font-size: 12px;
+      display: flex;
+      justify-content: center;
     }
 
     .card {
-      border: 1px solid #E3A127;
+      box-shadow: 1px 1px 15px #555;
+      border: 4px solid #E3A127;
+      height: 320px;
+      width: 400px;
+      background-color:white;
+      margin: 15px;
+      border-radius: 15px;
     }
 
-    img {
-      width: 50%;
-      height: 50%;
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .coiffeuseImg {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 250px;
+      box-shadow: 1px 1px 15px #555;
+    }
+
+    .card img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }

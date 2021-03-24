@@ -6,6 +6,15 @@ const errorDisplays = document.getElementsByClassName('error-display');
 const timeline = document.querySelector('.timeline');
 const containerView = document.getElementsByClassName('window')[0];
 const slides = document.getElementsByClassName('slide');
+const haircutSelect = document.getElementById('hair-cut-choice');
+const thanksDiv = document.getElementById('thanks');
+let haircutSelected = haircutSelect.value.split('/')[2].replace('.jpg','');
+const firstname = document.getElementById('first-name');
+const mail = document.getElementById('email');
+const tel = document.getElementById('tel');
+
+
+
 let containerViewWidth;
 let lastWindowPX;
 let leftInterval ="0px";
@@ -27,6 +36,7 @@ sizeAdjustment();
 window.addEventListener('resize',sizeAdjustment);
 
 for (let nextButton of nextButtons) {
+
     nextButton.addEventListener('click',(e)=>{
         let rightInterval = slideContainer.offsetLeft -containerViewWidth;
         slideContainer.style.left = rightInterval.toString()+"px";
@@ -58,6 +68,12 @@ submitButton.addEventListener('click',(e)=>{
             dots[i].classList.add('dot-incomplete');
             errorDisplays[i].classList.remove('inactive');
         }
+        let thanksString = `Merci ${firstname.value}, nous notons votre rendez vous qui aura lieu le 
+        datedate à heureheure. nous vous avons envoyé un mail de cofirmation à 
+        ${mail.value} et un SMS au ${tel.value}, vous avez choisi la coiffure "${haircutSelected}"`
+        ;
+        thanksDiv.innerHTML = thanksString;
+        console.log(thanksString);
     }
     if (count === 0){
         dots[3].classList.add('dot-ok');

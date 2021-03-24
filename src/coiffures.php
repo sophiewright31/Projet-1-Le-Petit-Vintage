@@ -29,7 +29,7 @@ $hairstyles = [
         'new' => false,
     ],
     [
-        'name' => 'Detresse',
+        'name' => 'Détresse',
         'image' => 'src/Coiffures/detresse.jpg',
         'description' => 'Angoisse causée par un sentiment d\'abandon, d\'impuissance, par une situation désespérée : La détresse d\'un chômeur.',
         'hairlength' => 'long hair',

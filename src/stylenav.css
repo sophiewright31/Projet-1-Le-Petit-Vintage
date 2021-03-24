@@ -75,11 +75,11 @@ p{
         right: 0;
         margin: auto;
         text-align: center;
-        /*background-color: #ffd64f;*/
         border-radius: 20px;
         cursor: pointer;
     }
     .burger-menu span {
+        z-index: 3;
         display: block;
         width: 100%;
         height: 5px;
@@ -103,6 +103,9 @@ p{
     .burger-menu span::after{
         transform: translateY(20px);
     }
+
+
+
     /*BODY*/
     body{
         width: 100%;
@@ -115,8 +118,15 @@ p{
         background-size: cover;
     }
 
-    .content {
+    #content {
+        display: none;
+
+    }
+
+    #content.active{
+        z-index: 0;
         width: 100%;
+        height: 100%;
         margin-bottom: 20px;
         flex: content;
         position: fixed;
@@ -129,7 +139,7 @@ p{
         justify-content: center;
         align-items: center;
         overflow-y: auto;
-
+        transform: scale (1);
     }
 
     .navStyle {

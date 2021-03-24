@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link type="text/css" rel="stylesheet" href="src/whoRwe.css">
+    <link type="text/css" rel="stylesheet" href="src/stylenav.css">
     <title>Qui sommes nous</title>
 
 </head>
 
 <body>
+<?php require 'nav.php'?>
 
 <section>
   <div class="title">
@@ -48,7 +50,6 @@
     <?php endforeach; ?>
   </div>
 </section>
-
-
+<?php require 'footer.php'?>
 </body>
 </html>

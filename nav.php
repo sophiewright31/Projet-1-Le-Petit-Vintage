@@ -1,16 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link type="text/css" rel="stylesheet" href="src/stylenav.css">
-    <title>Nav</title>
-
-</head>
-<body>
 
 <section >
 <div class="header">
@@ -24,10 +11,10 @@
     <nav id="content" >
 
         <ul class="navStyle">
-            <li class="button"> <a href="http://localhost:8000/nav.php"> Qui sommes nous ? </a> </li>
-            <li class="button"> <a href="http://localhost:8000/hairstyles.php">Nos Coiffures </a> </li>
-            <li class="button"> <a href="http://localhost:8000/rdv.php">Prendre Rendez-vous </a> </li>
-            <li class="button"> <a href="http://localhost:8000/contact.php"> Tarif et Contact </a> </li>
+            <li class="button"> <a href="whoRwe.php"> Qui sommes nous ? </a> </li>
+            <li class="button"> <a href="hairstyles.php">Nos Coiffures </a> </li>
+            <li class="button"> <a href="rdv.php">Prendre Rendez-vous </a> </li>
+            <li class="button"> <a href="contact.php"> Contact </a> </li>
         </ul>
 
     </nav>
@@ -37,9 +24,4 @@
 
 </section>
 
-<script src="scriptnav.js">
 
-</script>
-
-</body>
-</html>

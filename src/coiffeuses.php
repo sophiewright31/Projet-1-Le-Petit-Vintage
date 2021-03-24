@@ -1,5 +1,5 @@
 <?php
-$headDressers = [
+$hairDressers = [
     [
         'name' => 'Mathilde',
         'specialty' => ['Bon profil' ,'my bad'],
@@ -11,7 +11,7 @@ $headDressers = [
         'name' => 'Clothilde',
         'specialty' => ['Pink', 'Eiffel 65'],
         'image' => 'src/Coiffeuses/ClothildeCoiff2.jpg',
-        'imageBW' => 'src/Coiffeuses/ClohildeCoiff2BW.jpg',
+        'imageBW' => 'src/Coiffeuses/ClothildeCoiff2BW.jpg',
 
     ],
     [

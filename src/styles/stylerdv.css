@@ -2,6 +2,7 @@ body{
     background-image: url('../background/BG_Accueil_Le_Petit_Vintage.jpg');
     background-size: cover;
     color: white;
+    font-family: Arial;
 
 }
 
@@ -24,6 +25,9 @@ body{
     display: flex;
 
 }
+.title2{
+    text-align: center;
+}
 .slide{
     height: 800px;
     width: 250px;
@@ -37,6 +41,9 @@ body{
     flex-direction: column;
     justify-content: space-around;
     height: 50%;
+    max-width: 300px;
+    align-self: center;
+
 }
 
 
@@ -87,6 +94,8 @@ body{
     width: 80%;
     height: 30%;
     position: relative;
+    max-width: 30%;
+    min-width: 173px;
 
 }
 .alert{
@@ -105,10 +114,10 @@ body{
     font-size: 1.5em;
 }
 .hair-cut-img{
-    width: 60%;
     position: absolute;
     top: 25%;
-    right: 20%;
+    right: 23%;
+    max-height: 50%;
 }
 
 .img-active{
@@ -132,3 +141,20 @@ body{
     margin-top: 6px;
 }
 
+@media screen and (min-width: 800px){
+    body{
+        background-image: url('../background/BG_Accueil_Le_Petit_Vintage_PC.jpg');
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .card-container{
+        flex-direction: row;
+    }
+    .card{
+        height: 55%;
+        align-self: start;
+
+    }
+
+}

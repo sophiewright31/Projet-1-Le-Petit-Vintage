@@ -31,13 +31,13 @@ for (let dot of dots) {
     })
 };
 
-submitButton.addEventListener('click',()=>{
+submitButton.addEventListener('click',(e)=>{
     let count = 0;
     for(let i = 0; i < dots.length-1; i++) {
         if (!dots[i].classList.contains('dot-ok')) {
             count++;
             dots[i].classList.add('dot-incomplete');
-            errorDisplays[i].classList.remove('inactive')
+            errorDisplays[i].classList.remove('inactive');
         }
     }
     if (count === 0){

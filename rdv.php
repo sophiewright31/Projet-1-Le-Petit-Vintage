@@ -1,4 +1,7 @@
-<?php require 'src/coiffures.php'?>
+<?php
+    require 'src/coiffures.php';
+    require 'src/coiffeuses.php'
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -43,21 +46,29 @@
             <div class="slide" id="slide3">
                 <h2>Votre coiffeuse</h2>
                 <div class="card-container" id="hairdressers">
+                    <?php foreach ($hairDressers as $hairDresser):?>
                     <div class="card">
-                        <h4>coiffeuse1</h4>
-                        <img src="https://picsum.photos/300/200?grayscale&random=4" alt="" class="hair-cut-img" >
-                        <button id= "submit20" class="next choose-me">Choisir</button>
+                        <h4><?=$hairDresser['name']?></h4>
+                        <img src="<?=$hairDresser['image']?>" alt="" class="hair-cut-img " >
+                        <img src="<?=$hairDresser['imageBW']?>" alt="" class="hair-cut-img img-bw" >
+                        <button id= "submit20" class="next choose-me hidden">Choisir</button>
                     </div>
-                    <div class="card">
-                        <h4>coiffeuse2</h4>
-                        <img src="https://picsum.photos/300/200?grayscale&random=6" alt="" class="hair-cut-img">
-                        <button id= "submit21" class="next choose-me">Choisir</button>
-                    </div>
-                    <div class="card">
-                        <h4>coiffeuse3</h4>
-                        <img src="https://picsum.photos/300/200?grayscale&random=5" alt="" class="hair-cut-img" >
-                        <button id= "submit22" class="next choose-me">Choisir</button>
-                    </div>
+                    <?php endforeach;?>
+<!--                    <div class="card">-->
+<!--                        <h4>coiffeuse1</h4>-->
+<!--                        <img src="https://picsum.photos/300/200?grayscale&random=4" alt="" class="hair-cut-img" >-->
+<!--                        <button id= "submit20" class="next choose-me">Choisir</button>-->
+<!--                    </div>-->
+<!--                    <div class="card">-->
+<!--                        <h4>coiffeuse2</h4>-->
+<!--                        <img src="https://picsum.photos/300/200?grayscale&random=6" alt="" class="hair-cut-img">-->
+<!--                        <button id= "submit21" class="next choose-me">Choisir</button>-->
+<!--                    </div>-->
+<!--                    <div class="card">-->
+<!--                        <h4>coiffeuse3</h4>-->
+<!--                        <img src="https://picsum.photos/300/200?grayscale&random=5" alt="" class="hair-cut-img" >-->
+<!--                        <button id= "submit22" class="next choose-me">Choisir</button>-->
+<!--                    </div>-->
                 </div>
             </div>
             <div class="slide" id="slide4">
@@ -83,7 +94,7 @@
                         Nous avons noté votre rendez-vous pour le <?='/date'?>  à <?='/heure'?> avec notre coiffeuse <?='/coiffeuse'?>, vous avez choisi <?='/coupe'?>.
                         Un email à <?='/email'?> vous a été envoyé.
                     </p>
-                    <a href="#">retour à l'accueil</a>
+                    <a href="">retour à l'accueil</a>
 
                 </div>
             </div>
@@ -98,5 +109,6 @@
 
     <script src="slides.js"></script>
     <script src="haircut.js"></script>
+    <script src="hairdresser.js"></script>
 </body>
 </html>

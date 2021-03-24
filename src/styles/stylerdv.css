@@ -81,10 +81,12 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #F1B833;
     border-radius: 20px;
     width: 80%;
+    height: 30%;
+    position: relative;
 
 }
 .alert{
@@ -102,6 +104,24 @@ body{
     background-color: #F1B833;
     font-size: 1.5em;
 }
+.hair-cut-img{
+    width: 60%;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+
+.img-active{
+    opacity: 0;
+    transition: opacity 0.4s;
+
+}
+.hidden{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
 
 #hairdressers .card {
     width: 60%;
@@ -109,4 +129,6 @@ body{
 }
 .choose-me {
     margin-bottom: 17px;
+    margin-top: 6px;
 }
+

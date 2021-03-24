@@ -2,8 +2,8 @@
 @media screen and (max-width: 800px) {
   body {
       width: 100%;
-      margin:0;
-      paddin:0;
+      margin: 0;
+      padding: 0;
       background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
       background-repeat: no-repeat;
       background-position: center center;
@@ -11,21 +11,8 @@
       background-size: cover;
   }
 
-  .header {
-      padding-top: 50px;
-  }
-
-  .header-content {
-      display: flex;
-      width: 100%;
-  }
-
-  .Logo {
-      display: flex;
-      justify-content: center;
-      height: 50%;
-      width: 100%;
-      padding:5px;
+  .require {
+    height: 100px;
   }
 
   .menu {
@@ -231,23 +218,6 @@
       background-position: center center;
       background-attachment: fixed;
       background-size: cover;
-  }
-
-  .header {
-      padding-top: 50px;
-  }
-
-  .header-content {
-      display: flex;
-      width: 100%;
-  }
-
-  .Logo {
-      display: flex;
-      justify-content: center;
-      height: 50%;
-      width: 100%;
-      padding:5px;
   }
 
   .menu {

@@ -4,29 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link type="text/css" rel="stylesheet" href="src/stylenav.css">
+    <link type="text/css" rel="stylesheet" href="src/styleAccueil.css">
     <title>Le petit Vintage</title>
 </head>
-<body>
-</body>
-</html><!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="src/styleAccueil.css">
-    <title>Accueil</title>
 
-</head>
 
 <body>
-<?php require 'nav.php'?>
-
-
-
-
+  <section class="require">
+    <?php require 'nav.php'?>
+  </section>
 
 <section>
     <div class="tramme"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>

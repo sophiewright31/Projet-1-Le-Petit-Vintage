@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Eurostile;
+}
+
+.footer-content {
+
+    color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+
+    width: 100%;
+    background-color: rgb(4,4,5,0.8);
+}
+
+.contact-footer{
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(226,223,234,0.5) ;
+}
+.footer-bar{
+    padding: 20px;
+    height: 100%;
+
+}
+
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 800px){
+
+}
+

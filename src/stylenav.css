@@ -55,8 +55,8 @@ p{
         color: #F0F2F4;
     }
     .button{
-
-        font-family: "Arial";
+        font-size: 20px;
+        font-family: Eurostile;
         margin: 5px;
     }
 }
@@ -162,7 +162,7 @@ p{
 
     .button{
 
-        font-family: "Arial";
+        font-family: Eurostile;
         margin: 30px;
 
     }

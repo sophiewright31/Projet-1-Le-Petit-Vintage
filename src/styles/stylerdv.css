@@ -101,6 +101,9 @@ body{
 .alert{
     color: #ef6334;
 }
+.alert-inactive{
+    display: none;
+}
 #submit0{
     height: 3em;
 }
@@ -139,6 +142,9 @@ body{
 .choose-me {
     margin-bottom: 17px;
     margin-top: 6px;
+}
+.link{
+    color: white;
 }
 
 @media screen and (min-width: 800px){

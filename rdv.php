@@ -18,15 +18,15 @@
             <div class="slide" id="slide1">
                 <h2 class="title2">Vos coordonnées </h2>
                 <div class="container-form">
-                    <input type="text" name="first-name" id="first-name" class="input-form" placeholder="prénom">
-                    <p class="errror-first-name alert inactive"></p>
-                    <input type="text" name="last-name" id="last-name" class="input-form" placeholder="nom">
-                    <p class="errror-first-name alert inactive"></p>
-                    <input type="email" name="email" id="email" class="input-form" placeholder="adresse e-mail">
-                    <p class="errror-email alert inactive"></p>
-                    <input type="tel" name="tel" id="tel" class="input-form" placeholder="téléphone">
-                    <p class="errror-tel alert inactive"></p>
-                    <button id= "submit0" class="slideButton next input-form">Valider</button>
+                    <input type="text" name="first-name" id="first-name" required class="input-form" placeholder="prénom">
+                    <p class="errror-first-name alert-inactive alert"></p>
+                    <input type="text" name="last-name" id="last-name" required class="input-form" placeholder="nom">
+                    <p class="errror-first-name alert-inactive alert"></p>
+                    <input type="email" name="email" id="email" required class="input-form" placeholder="adresse e-mail">
+                    <p class="errror-email alert-inactive alert"></p>
+                    <input type="tel" name="tel" id="tel" required class="input-form" placeholder="téléphone">
+                    <p class="errror-tel alert-inactive alert"></p>
+                    <button id= "submit0" class="slideButton next ">Valider</button>
                 </div>
             </div>
             <div class="slide" id="slide2">
@@ -46,12 +46,12 @@
             <div class="slide" id="slide3">
                 <h2 class="title2">Votre coiffeuse</h2>
                 <div class="card-container" id="hairdressers">
-                    <?php foreach ($hairDressers as $hairDresser):?>
+                    <?php foreach ($hairDressers as $index => $hairDresser):?>
                     <div class="card">
-                        <h4><?=$hairDresser['name']?></h4>
+                        <h4 class="hairdresser-name"><?=$hairDresser['name']?></h4>
                         <img src="<?=$hairDresser['image']?>" alt="" class="hair-cut-img " >
                         <img src="<?=$hairDresser['imageBW']?>" alt="" class="hair-cut-img img-bw" >
-                        <button id= "submit20" class="next choose-me hidden">Choisir</button>
+                        <button id= "submit2<?=$index?>" class="next choose-me hidden">Choisir</button>
                     </div>
                     <?php endforeach;?>
                 </div>
@@ -74,12 +74,13 @@
             </div>
             <div class="slide" id="slide5">
                 <h2 class="title2">Votre réservation a été enregistrée</h2>
+                <div id="result" class="inactive">
+                    <p id="name-hairdresser"></p>
+                </div>
                 <div class="result">
-                    <p>
-                        Nous avons noté votre rendez-vous pour le <?='/date'?>  à <?='/heure'?> avec notre coiffeuse <?='/coiffeuse'?>, vous avez choisi <?='/coupe'?>.
-                        Un email à <?='/email'?> vous a été envoyé.
-                    </p>
-                    <a href="index.php">retour à l'accueil</a>
+                    <div id="thanks">
+                    </div>
+                    <a class="link" href="index.php">retour à l'accueil</a>
 
                 </div>
             </div>
@@ -95,5 +96,6 @@
     <script src="slides.js"></script>
     <script src="haircut.js"></script>
     <script src="hairdresser.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>

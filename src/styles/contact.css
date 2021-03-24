@@ -1,0 +1,66 @@
+a{
+
+    text-decoration:none;
+    color: #f0f2f4;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    display: block;
+}
+
+h3 {
+    color: #E3A127;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.phone-number{
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+
+    body{
+        width: 100%;
+        margin:0;
+        paddin:0;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: "Eurostile", sans-serif;
+    }
+
+}
+
+/* MOBILE*/
+@media screen and (max-width: 800px) {
+    /*BODY*/
+    body{
+        width: 100%;
+        margin:0;
+        paddin:0;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: "Eurostile", sans-serif;
+    }
+}

@@ -1,0 +1,87 @@
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: saddlebrown;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card {
+    height: 650px;
+    width: 400px;
+    background-color:white;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hairstyleimg {
+    width: 100%;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.display-block {
+    display: block;
+}
+
+.new-card {
+    background-color: #E3A127;
+}
+
+p{
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        width: 100%;
+        margin-top: 50px;
+        paddin:0;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Eurostile, sans-serif;
+    }
+}
+/* MOBILE*/
+@media screen and (max-width: 800px) {
+    body{
+        width: 100%;
+        margin-top: 30px;
+        paddin:0;
+        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Eurostile, sans-serif;
+    }
+}

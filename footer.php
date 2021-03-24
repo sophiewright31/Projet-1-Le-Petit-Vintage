@@ -11,11 +11,11 @@
 <body>
 <section class="footer">
     <div class ="footer-content">
-        <div class="footer-bar"> Le Petit Vintage 2021 - Tout droits réservés - <a class="links" href=""> mentions légales </a></div>
+        <div class="footer-bar">  Le Petit Vintage 2021 - Tout droits réservés - <a class="links" href=""> mentions légales </a></div>
 
-        <div class="footer-bar" >Horaires
+        <div class="footer-bar" ><b>Horaires</b>
         <ul>
-            <li> du luni au vendredi: 9h00 - 18h00</li>
+            <li> du lundi au vendredi: 9h00 - 18h00</li>
             <li> samedi: 9h00 - 18h00</li>
             <li> dimanche: fermé </li>
         </ul>
@@ -24,9 +24,9 @@
         </div>
 
 
-        <div class="contact-footer"> Contactez nous :
+        <div class="contact-footer"> <b>Contactez nous : </b>
 
-            <ul>Horaires
+            <ul>
                 <li> 7 Avenue Thiers, 33100 Bordeaux </li>
                 <li><a class ="links" href="mailto:contact@lepetitvintage.fr"> conatct@lepetitvintage.fr </a> </li>
                 <li> 06 12 31 51 09 </li>

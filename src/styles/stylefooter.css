@@ -7,21 +7,24 @@ body{
 .footer-content {
 
     color: white;
-    align-items: flex-start;
-    justify-content: space-between;
     display: flex;
-
+    align-items: stretch;
+    justify-content: space-between;
     width: 100%;
     background-color: rgb(4,4,5,0.8);
+
 }
 
 .contact-footer{
+
+    margin-left: 10px;
     padding: 20px;
-    height: 100%;
     background-color: rgb(226,223,234,0.5) ;
 }
 .footer-bar{
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
     height: 100%;
 
 }
@@ -33,6 +36,10 @@ body{
 }
 
 @media screen and (max-width: 800px){
+
+    .footer-content{
+        font-size: 15px;
+    }
 
 }
 

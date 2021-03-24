@@ -16,21 +16,21 @@
 <div class="window">
         <div id="slide-container">
             <div class="slide" id="slide1">
-                <h2>Vos coordonnées </h2>
+                <h2 class="title2">Vos coordonnées </h2>
                 <div class="container-form">
-                    <input type="text" name="first-name" id="first-name" placeholder="prénom">
+                    <input type="text" name="first-name" id="first-name" class="input-form" placeholder="prénom">
                     <p class="errror-first-name alert inactive"></p>
-                    <input type="text" name="last-name" id="last-name" placeholder="nom">
+                    <input type="text" name="last-name" id="last-name" class="input-form" placeholder="nom">
                     <p class="errror-first-name alert inactive"></p>
-                    <input type="email" name="email" id="email" placeholder="adresse e-mail">
+                    <input type="email" name="email" id="email" class="input-form" placeholder="adresse e-mail">
                     <p class="errror-email alert inactive"></p>
-                    <input type="tel" name="tel" id="tel" placeholder="téléphone">
+                    <input type="tel" name="tel" id="tel" class="input-form" placeholder="téléphone">
                     <p class="errror-tel alert inactive"></p>
-                    <button id= "submit0" class="slideButton next">Valider</button>
+                    <button id= "submit0" class="slideButton next input-form">Valider</button>
                 </div>
             </div>
             <div class="slide" id="slide2">
-                <h2>Votre choix de coupe de cheveux </h2>
+                <h2 class="title2">Votre choix de coupe de cheveux </h2>
                 <div class="card-container">
                     <div id="hair-cut-selector" class="card">
                         <select name="hair-cut-choice" id="hair-cut-choice">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="slide" id="slide3">
-                <h2>Votre coiffeuse</h2>
+                <h2 class="title2">Votre coiffeuse</h2>
                 <div class="card-container" id="hairdressers">
                     <?php foreach ($hairDressers as $hairDresser):?>
                     <div class="card">
@@ -54,25 +54,10 @@
                         <button id= "submit20" class="next choose-me hidden">Choisir</button>
                     </div>
                     <?php endforeach;?>
-<!--                    <div class="card">-->
-<!--                        <h4>coiffeuse1</h4>-->
-<!--                        <img src="https://picsum.photos/300/200?grayscale&random=4" alt="" class="hair-cut-img" >-->
-<!--                        <button id= "submit20" class="next choose-me">Choisir</button>-->
-<!--                    </div>-->
-<!--                    <div class="card">-->
-<!--                        <h4>coiffeuse2</h4>-->
-<!--                        <img src="https://picsum.photos/300/200?grayscale&random=6" alt="" class="hair-cut-img">-->
-<!--                        <button id= "submit21" class="next choose-me">Choisir</button>-->
-<!--                    </div>-->
-<!--                    <div class="card">-->
-<!--                        <h4>coiffeuse3</h4>-->
-<!--                        <img src="https://picsum.photos/300/200?grayscale&random=5" alt="" class="hair-cut-img" >-->
-<!--                        <button id= "submit22" class="next choose-me">Choisir</button>-->
-<!--                    </div>-->
                 </div>
             </div>
             <div class="slide" id="slide4">
-                <h2>Votre rendez-vous</h2>
+                <h2 class="title2">Votre rendez-vous</h2>
                 <div class="agenda">
                     <input type="date" name="" id="">
                     <button id= "submit3" class="submit">prendre rendez-vous</button>
@@ -88,7 +73,7 @@
                 </p>
             </div>
             <div class="slide" id="slide5">
-                <h2>Votre réservation a été enregistrée</h2>
+                <h2 class="title2">Votre réservation a été enregistrée</h2>
                 <div class="result">
                     <p>
                         Nous avons noté votre rendez-vous pour le <?='/date'?>  à <?='/heure'?> avec notre coiffeuse <?='/coiffeuse'?>, vous avez choisi <?='/coupe'?>.

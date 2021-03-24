@@ -153,6 +153,8 @@ body{
     }
     .card{
         height: 55%;
+        align-self: start;
+
     }
 
 }

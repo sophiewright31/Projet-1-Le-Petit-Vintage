@@ -19,7 +19,6 @@ p{
     height: 70px;
     width: 100% ;
     padding:5px;
-
 }
 
 
@@ -65,7 +64,7 @@ p{
     .burger-menu{
         width: 70px;
         height: 40px;
-        position: fixed;
+        position: absolute;
         top: 150px;
         left: 0;
         right: 0;

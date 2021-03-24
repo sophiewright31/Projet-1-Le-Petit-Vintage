@@ -36,12 +36,13 @@
 
 <section>
   <div class= 'container flex-around'>
-    <?php foreach($headDressers as $headDresserData): ?>
-      <div class="card <?= $headDresserData['new'] ? 'new-card' : ''?>">
-        <img src="<?= $headDresserData['image'] ?>" alt=''>
-        <h2 class="coiffeusesName"><?= $headDresserData['name'] ?></h2>
+    <?php foreach($hairDressers as $hairDresserData): ?>
+      <div class="card">
+        <img src="<?= $hairDresserData['image'] ?>" alt=''>
+        <h2 class="coiffeusesName"><?= $hairDresserData['name'] ?></h2>
         <p class="coiffeusesSpe">
-          <?= $headDresserData['specialty'] ?>
+            spécialités:
+            <?php foreach ($hairDresserData['specialties'] as $specialty)echo $specialty.', ';?>
         </p>
       </div>
     <?php endforeach; ?>

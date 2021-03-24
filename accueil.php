@@ -40,9 +40,7 @@
                                ullamco laboris nisi ut aliquip ex ea commodo
                                consequat. Duis aute irure dolor in
                                eprehenderit in voluptate velit esse cillum
-                               dolore eu fugiat nulla pariatur. Excepteur sint
-                               occaecat cupidatat non proident, sunt in culpa
-                               qui officia deserunt mollit anim id est laborum</p>
+                               dolore eu fugiat nulla pariatur.</p>
       <button class="card-who-button" href="Qui-sommes-nous?.php">Lire la suite</button>
     </div>
   </div>
@@ -68,12 +66,12 @@
 </section>
 
 <section class="which">
-  <div class="card-classique middle-card">
-    <div class="card-header middle-card">
+  <div class="card-classique">
+    <div class="card-header">
       <h2>...une coupe classique ?</h2>
     </div>
-    <div class="card-body middle-card">
-      <p class="card-text middle-card">Lorem ipsum dolor sit amet, consectetur
+    <div class="card-body">
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur
                                        adipiscing elit, sed do eiusmod tempor
                                        ncididunt ut labore</p>
     </div>

@@ -1,5 +1,4 @@
 
-
 <section >
 <div class="header">
  <div class="header-content">
@@ -12,10 +11,12 @@
     <nav id="content" >
 
         <ul class="navStyle">
-            <li class="button"> <a href="http://localhost:8000/whoRwe.php"> Qui sommes nous ? </a> </li>
-            <li class="button"> <a href="http://localhost:8000/hairstyles.php">Nos Coiffures </a> </li>
-            <li class="button"> <a href="http://localhost:8000/rdv.php">Prendre Rendez-vous </a> </li>
-            <li class="button"> <a href="http://localhost:8000/contact.php"> Tarif et Contact </a> </li>
+
+            <li class="button"> <a href="whoRwe.php"> Qui sommes nous ? </a> </li>
+            <li class="button"> <a href="hairstyles.php">Nos Coiffures </a> </li>
+            <li class="button"> <a href="rdv.php">Prendre Rendez-vous </a> </li>
+            <li class="button"> <a href="contact.php"> Contact </a> </li>
+
         </ul>
 
     </nav>
@@ -25,7 +26,4 @@
 
 </section>
 
-<script src="scriptnav.js">
-
-</script>
 

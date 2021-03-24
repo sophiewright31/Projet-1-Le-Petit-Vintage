@@ -79,7 +79,7 @@
                         Nous avons noté votre rendez-vous pour le <?='/date'?>  à <?='/heure'?> avec notre coiffeuse <?='/coiffeuse'?>, vous avez choisi <?='/coupe'?>.
                         Un email à <?='/email'?> vous a été envoyé.
                     </p>
-                    <a href="">retour à l'accueil</a>
+                    <a href="index.php">retour à l'accueil</a>
 
                 </div>
             </div>

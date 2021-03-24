@@ -1,4 +1,5 @@
 <?php require 'src/coiffures.php' ?>
+<?php require 'nav.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/styles/hairstylecards.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="src/stylenav.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +24,7 @@
             <h3> <?= $hairstyleData['hairlength']?></h3>
         </div> 
         <?php endforeach; ?>
-    </div> 
-
+    </div>
+    <?php require 'footer.php'?>
 </body>
 </html>

@@ -76,7 +76,7 @@
     </div>
 </section>
 
-</article>
+</body>
 <section class="which">
     <div class="card-rebel">
         <div class="card-header">

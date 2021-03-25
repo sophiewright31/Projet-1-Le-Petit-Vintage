@@ -86,6 +86,7 @@ body{
 }
 
 
+
 .card-container{
     display:flex;
     flex-direction: column;
@@ -154,7 +155,24 @@ body{
 .link{
     color: white;
 }
+.selected{
+    background-color: #ecb354;
+    transform: scale(1.5);
+    transition: transform 0.5s;
 
+}
+.submitHour{
+    border-radius: 5px;
+
+}
+.agenda{
+    margin: 0 auto;
+    align-items: center;
+}
+.error-display{
+    align-self: start;
+    margin-left: 10px;
+}
 @media screen and (min-width: 800px){
     body{
         background-image: url('../background/BG_Accueil_Le_Petit_Vintage_PC.jpg');

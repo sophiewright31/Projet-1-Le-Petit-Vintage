@@ -12,6 +12,9 @@ let haircutSelected = haircutSelect.value.split('/')[2].replace('.jpg','');
 const firstname = document.getElementById('first-name');
 const mail = document.getElementById('email');
 const tel = document.getElementById('tel');
+const date = document.getElementById('date');
+const result = document.getElementById('result')
+
 
 
 
@@ -19,6 +22,8 @@ let containerViewWidth;
 let lastWindowPX;
 let leftInterval ="0px";
 let dotIndex = 0;
+let frenchDate;
+let hourChosen="";
 function lastWindowPXCalculator (windowWidth){
  return '-'+parseInt(windowWidth)*4+'px';
 }
@@ -69,11 +74,10 @@ submitButton.addEventListener('click',(e)=>{
             errorDisplays[i].classList.remove('inactive');
         }
         let thanksString = `Merci ${firstname.value}, nous notons votre rendez vous qui aura lieu le 
-        datedate à heureheure. nous vous avons envoyé un mail de cofirmation à 
+        ${frenchDate} à ${hourChosen}. Nous vous avons envoyé un mail de cofirmation à 
         ${mail.value} et un SMS au ${tel.value}, vous avez choisi la coiffure "${haircutSelected}"`
         ;
         thanksDiv.innerHTML = thanksString;
-        console.log(thanksString);
     }
     if (count === 0){
         dots[3].classList.add('dot-ok');
@@ -84,4 +88,55 @@ submitButton.addEventListener('click',(e)=>{
         }
         //To remove the event listener
     }
+})
+date.addEventListener('change',()=>{
+    let chosenDate = new Date(date.value);
+    let numDay = chosenDate.getDay();
+    let day ="";
+    switch (numDay){
+        case 0: day = "Dimanche";break;
+        case 1: day = "Lundi";break;
+        case 2: day = "Mardi";break;
+        case 3: day = "Mercredi";break;
+        case 4: day = "Jeudi";break;
+        case 5: day = "Vendredi";break;
+        case 6: day = "Samedi";break;
+
+
+    }
+    let agenda =[
+        ["Fermé"],
+        ["Fermé"],
+        ["10h00","11h00","14h30"],
+        ["10h00","15h00"],
+        ["11h30","14h30","16h00"],
+        ["10h00","11h00","13h30","16h00"],
+        ["10h00"],
+
+    ]
+    let month = chosenDate.toLocaleString('default', { month: 'long' });
+    frenchDate = day + " " + chosenDate.getDate() +" "+month+" "+chosenDate.getFullYear();
+    let html ="";
+    result.innerHTML = frenchDate;
+    for (const schedule of agenda[numDay]) {
+        if (schedule === "Fermé"){
+            html = `<p>${schedule}<p/>`;
+        }else {
+            html = `<p><button id= "h${schedule}" class="submitHour">${schedule}</button></p> `
+        }
+        result.innerHTML += html;
+    }
+    const hours = document.getElementsByClassName('submitHour');
+    for (const hour of hours) {
+        hour.addEventListener('click',(e)=>{
+            let selected = document.getElementsByClassName('selected');
+            if (selected.length === 1)selected[0].classList.remove('selected');
+            e.target.classList.add('selected');
+            hourChosen = e.target.id.substr(1,5);
+
+        })
+
+    }
+
+
 })

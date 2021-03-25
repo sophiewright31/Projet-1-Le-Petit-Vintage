@@ -58,10 +58,9 @@
             </div>
             <div class="slide" id="slide4">
                 <h2 class="title2">Votre rendez-vous</h2>
-                <div class="agenda">
-                    <input type="date" name="" id="">
-                    <button id= "submit3" class="submit">prendre rendez-vous</button>
-                </div>
+                <div class="agenda card">
+                    <input type="date" name="date" id="date">
+                    <div id="result"></div>
                 <p class="error-display inactive alert">
                     Veuillez remplir le formulaire "Vos coordonnées"
                 </p>
@@ -71,12 +70,11 @@
                 <p class="error-display inactive alert">
                     Veuillez choisir notre coiffeuse qui s'occupera de vous
                 </p>
+                    <button id= "submit3" class="submit">prendre rendez-vous</button>
+                </div>
             </div>
             <div class="slide" id="slide5">
                 <h2 class="title2">Votre réservation a été enregistrée</h2>
-                <div id="result" class="inactive">
-                    <p id="name-hairdresser"></p>
-                </div>
                 <div class="result">
                     <div id="thanks">
                     </div>

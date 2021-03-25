@@ -59,12 +59,14 @@ body{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 20px;
+    bottom: 30%;
     width: 100%;
 }
 .timeline-ok{
-    bottom: 50%;
+    bottom: 40%;
+    justify-content: space-between;
     transition: bottom 0.4s;
+
 }
 .dot{
     width: 2em;
@@ -88,11 +90,11 @@ body{
 
 
 .card-container{
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80%;
+    height: 55%;
 }
 .card{
     display: flex;
@@ -173,6 +175,15 @@ body{
     align-self: start;
     margin-left: 10px;
 }
+.result{
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px;
+    align-self: flex-end;
+    margin: 0 auto;
+    max-height: 200px;
+
+}
 @media screen and (min-width: 800px){
     body{
         background-image: url('../background/BG_Accueil_Le_Petit_Vintage_PC.jpg');
@@ -184,8 +195,24 @@ body{
         flex-direction: row;
     }
     .card{
-        height: 55%;
+        height: 80%;
         align-self: start;
+
+    }
+    .hair-cut-img {
+        position: absolute;
+        top: 18%;
+        right: 20%;
+        max-height: 60%;
+    }
+    .agenda{
+        height: 50vh;
+        align-self: start;
+    }
+    .timeline-ok{
+        bottom: 50%;
+        justify-content: space-between;
+        transition: bottom 0.4s;
 
     }
 

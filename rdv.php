@@ -56,7 +56,7 @@
                     <?php endforeach;?>
                 </div>
             </div>
-            <div class="slide" id="slide4">
+            <div class="slide " id="slide4">
                 <h2 class="title2">Votre rendez-vous</h2>
                 <div class="agenda card">
                     <input type="date" name="date" id="date">
@@ -75,7 +75,7 @@
             </div>
             <div class="slide" id="slide5">
                 <h2 class="title2">Votre réservation a été enregistrée</h2>
-                <div class="result">
+                <div class="result card">
                     <div id="thanks">
                     </div>
                     <a class="link" href="index.php">retour à l'accueil</a>

@@ -13,11 +13,16 @@ h1,h2,h3,h4,h5{
       width: 100%;
       margin: 0;
       padding: 0;
-      background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
+
+  }
+
+  .require {
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .card-who {
@@ -43,11 +48,7 @@ h1,h2,h3,h4,h5{
       width: 100%;
       margin: 0;
       padding: 0;
-      background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
+
     }
 
     .card-who {
@@ -68,7 +69,12 @@ h1,h2,h3,h4,h5{
 }
 
   .require {
-    height: 100px;
+    height: 100vh;
+    background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: local;
+    background-size: cover;
   }
 
   .menu {
@@ -79,6 +85,7 @@ h1,h2,h3,h4,h5{
   }
 
   .tramme {
+    position: absolute;
     text-align: center;
     margin-top: 490px;
     padding-left: 0px;
@@ -86,16 +93,17 @@ h1,h2,h3,h4,h5{
   }
 
   .who {
-    margin-top: 0px;
+    margin-top: 150px;
     margin-bottom: 150px;
   }
 
   .card-who {
     align-items: center;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid ;
     background-color: #E3A127;
     border-radius: 30px;
+    border-color: #E3A127;
     height: auto;
     margin: auto;
     display: flex;
@@ -191,7 +199,6 @@ h1,h2,h3,h4,h5{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 115%;
-    border: 4px solid grey;
     border-radius: 30px;
     height: auto;
     margin: auto;
@@ -215,7 +222,6 @@ h1,h2,h3,h4,h5{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 115%;
-    border: 4px solid #E3A127;
     border-radius: 30px;
     height: auto;
     margin: auto;
@@ -234,14 +240,21 @@ h1,h2,h3,h4,h5{
     margin-left: 10px;
     margin-right: 10px;
   }
+ .staff-container{
+   display: flex;
+   justify-content: space-around;
+ }
+  #staff{
+    height: 200px;
+    display: flex;
 
+  }
 
   .card-rebel {
     background-image: url("Cards/pretty-woman-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 115%;
-    border: 4px solid grey;
     border-radius: 30px;
     height: auto;
     margin: auto;

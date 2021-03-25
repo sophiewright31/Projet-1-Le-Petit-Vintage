@@ -12,7 +12,6 @@ for (const imgHairdresser of imgHairdressers) {// const active = document.queryS
     }
         e.target.classList.add("img-active");
 
-        console.log('ok');
         e.target.nextElementSibling.classList.remove('hidden');
         e.target.nextElementSibling.classList.add('visible');
 

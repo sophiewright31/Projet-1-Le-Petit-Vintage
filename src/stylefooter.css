@@ -1,5 +1,12 @@
 /*Footer*/
+@font-face{
+    font-family: "eurostile";
+    src: url("/src/Eurostile.ttf") format('truetype');
+}
 
+h1,h2,h3,h4,h5{
+    font-family: eurostile;
+}
 .footer-content{
     width: 100%;
     height: 70px;

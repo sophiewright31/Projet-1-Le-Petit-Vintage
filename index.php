@@ -22,7 +22,7 @@
 <section class="who">
     <div class="card-who">
         <div class="card-who-header">
-            <h2>Qui sommes nous ?</h2>
+            <h2>Qui sommes nous?</h2>
         </div>
         <div class="card-who-body">
             <p class="card-who-text">Lorem ipsum dolor sit amet, consectetur
@@ -74,7 +74,7 @@
     </div>
 </section>
 
-</article>
+</body>
 <section class="which">
     <div class="card-rebel">
         <div class="card-header">

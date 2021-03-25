@@ -90,11 +90,11 @@ body{
 
 
 .card-container{
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80%;
+    height: 55%;
 }
 .card{
     display: flex;
@@ -195,8 +195,24 @@ body{
         flex-direction: row;
     }
     .card{
-        height: 55%;
+        height: 80%;
         align-self: start;
+
+    }
+    .hair-cut-img {
+        position: absolute;
+        top: 18%;
+        right: 20%;
+        max-height: 60%;
+    }
+    .agenda{
+        height: 50vh;
+        align-self: start;
+    }
+    .timeline-ok{
+        bottom: 50%;
+        justify-content: space-between;
+        transition: bottom 0.4s;
 
     }
 

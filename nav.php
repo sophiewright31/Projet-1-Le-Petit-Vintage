@@ -1,9 +1,8 @@
-<script src="scriptnav.js"></script>
 <section >
 <div class="header">
  <div class="header-content">
 
-    <div class="Logo"> <img id="LogoImg" src="https://i.imgur.com/pzGXQd4.png" > </div>
+    <a href="index.php"><div class="Logo"><img id="LogoImg" src="https://i.imgur.com/pzGXQd4.png"></div></a>
 
  </div>
 
@@ -23,7 +22,5 @@
 
 </div>
     <div class="burger-menu" id="" onclick=" menuToggle() " > <span> </span></div>
-
+<div class="spacer"></div>
 </section>
-
-

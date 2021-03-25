@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5{
 .header-content{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .Logo{
@@ -24,6 +25,7 @@ h1,h2,h3,h4,h5{
     width: 100% ;
     padding:5px;
 }
+
 
 
 /*SCREEN*/
@@ -53,10 +55,15 @@ h1,h2,h3,h4,h5{
         text-decoration:none;
         color: #F0F2F4;
     }
+
     .button{
         font-size: 20px;
         font-family: Eurostile;
         margin: 5px;
+    }
+
+    .spacer {
+      display: none;
     }
 }
 
@@ -69,7 +76,7 @@ h1,h2,h3,h4,h5{
         width: 70px;
         height: 40px;
         position: absolute;
-        top: 150px;
+        top: 130px;
         left: 0;
         right: 0;
         margin: auto;
@@ -78,7 +85,6 @@ h1,h2,h3,h4,h5{
         cursor: pointer;
     }
     .burger-menu span {
-        z-index: 3;
         display: block;
         width: 100%;
         height: 5px;
@@ -111,6 +117,12 @@ h1,h2,h3,h4,h5{
         margin:0;
         paddin:0;
 
+    }
+
+    .spacer {
+      display: block;
+      height: 110px;
+      margin: auto;
     }
 
     #content {

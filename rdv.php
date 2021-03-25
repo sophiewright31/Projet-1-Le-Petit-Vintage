@@ -10,11 +10,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="src/styles/stylerdv.css">
-    <title>Le petit Vintage prendre rendez vous</title>
+    <title>prendre rendez vous</title>
 </head>
 <body>
-<div class="window">
-        <div id="slide-container">
+    <div class="window">
+        <div id="slide-container" class = slide-container>
             <div class="slide" id="slide1">
                 <h2 class="title2">Vos coordonnées </h2>
                 <div class="container-form">
@@ -26,14 +26,14 @@
                     <p class="errror-email alert-inactive alert"></p>
                     <input type="tel" name="tel" id="tel" required class="input-form" value = "0665146212" placeholder="téléphone">
                     <p class="errror-tel alert-inactive alert"></p>
-                    <button id= "submit0" class="slideButton next ">Valider</button>
+                    <button id= "submit0" class="slideButton next submit">Valider</button>
                 </div>
             </div>
             <div class="slide" id="slide2">
                 <h2 class="title2">Votre choix de coupe de cheveux </h2>
                 <div class="card-container">
-                    <div id="hair-cut-selector" class="card">
-                        <select name="hair-cut-choice" id="hair-cut-choice">
+                    <div id="hair-cut-selector" class="card hair-cut-selector">
+                        <select name="hair-cut-choice" id="hair-cut-choice" class = "hair-cut-choice">
                             <?php foreach ($hairstyles as $hairstyle):?>
                                 <option class="hair-cut-option" value="<?=$hairstyle['image']?>"><?=$hairstyle['name']?></option>
                             <?php endforeach;?>
@@ -47,7 +47,7 @@
                 <h2 class="title2">Votre coiffeuse</h2>
                 <div class="card-container" id="hairdressers">
                     <?php foreach ($hairDressers as $index => $hairDresser):?>
-                    <div class="card">
+                    <div class="card hair-dresser-card">
                         <h4 class="hairdresser-name"><?=$hairDresser['name']?></h4>
                         <img src="<?=$hairDresser['image']?>" alt="" class="hair-cut-img " >
                         <img src="<?=$hairDresser['imageBW']?>" alt="" class="hair-cut-img img-bw" >

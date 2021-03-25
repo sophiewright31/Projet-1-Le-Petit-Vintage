@@ -11,9 +11,7 @@ body{
     background-size: cover;
     color: white;
     font-family: Arial;
-
 }
-
 .window{
     height: 800px;
     width: 250px;
@@ -24,14 +22,13 @@ body{
 .inactive{
     display: none;
 }
-#slide-container{
+.slide-container{
     height: 800px;
     width: 8000px;
     position: absolute;
     left: 0px;
     transition: left 0.4s;
     display: flex;
-
 }
 .title2{
     text-align: center;
@@ -42,7 +39,6 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-
 }
 .container-form{
     display: flex;
@@ -51,10 +47,7 @@ body{
     height: 50%;
     max-width: 300px;
     align-self: center;
-
 }
-
-
 .timeline{
     display: flex;
     justify-content: space-around;
@@ -66,7 +59,6 @@ body{
     bottom: 40%;
     justify-content: space-between;
     transition: bottom 0.4s;
-
 }
 .dot{
     width: 2em;
@@ -86,9 +78,6 @@ body{
 .dot-current{
     border: 5px solid #F1B833;
 }
-
-
-
 .card-container{
     display: flex;
     flex-direction: column;
@@ -107,7 +96,6 @@ body{
     position: relative;
     max-width: 30%;
     min-width: 173px;
-
 }
 .alert{
     color: #ef6334;
@@ -115,13 +103,13 @@ body{
 .alert-inactive{
     display: none;
 }
-#submit0{
+.submit{
     height: 3em;
 }
-#hair-cut-selector{
+.hair-cut-selector{
     height: 50%;
 }
-#hair-cut-choice{
+.hair-cut-choice{
     text-align: center;
     color: white;
     background-color: #F1B833;
@@ -146,7 +134,7 @@ body{
     visibility: visible;
 }
 
-#hairdressers .card {
+.hair-dresser-card{
     width: 60%;
     text-align: center;
 }

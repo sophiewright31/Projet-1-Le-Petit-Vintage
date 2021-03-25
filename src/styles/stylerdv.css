@@ -59,12 +59,14 @@ body{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 20px;
+    bottom: 30%;
     width: 100%;
 }
 .timeline-ok{
-    bottom: 50%;
+    bottom: 40%;
+    justify-content: space-between;
     transition: bottom 0.4s;
+
 }
 .dot{
     width: 2em;
@@ -172,6 +174,15 @@ body{
 .error-display{
     align-self: start;
     margin-left: 10px;
+}
+.result{
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px;
+    align-self: flex-end;
+    margin: 0 auto;
+    max-height: 200px;
+
 }
 @media screen and (min-width: 800px){
     body{

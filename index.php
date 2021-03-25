@@ -74,7 +74,7 @@
     </div>
 </section>
 
-</body>
+
 <section class="which">
     <div class="card-rebel">
         <div class="card-header">
@@ -92,7 +92,7 @@
         </div>
     </div>
 </section>
-<script src="scriptnav.js">
+<script src="scriptnav.js"></script>
 <?php require 'footer.php'?>
 </body>
 </html>

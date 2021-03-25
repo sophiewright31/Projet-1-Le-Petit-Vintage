@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5{
     body{
         width: 100%;
         margin:0;
-        paddin:0;
+        padding:0;
 
     }
 
@@ -115,7 +115,7 @@ h1,h2,h3,h4,h5{
     body{
         width: 100%;
         margin:0;
-        paddin:0;
+        padding:0;
 
     }
 
@@ -141,12 +141,12 @@ h1,h2,h3,h4,h5{
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgb(4,4,5,0.5);
+        background-color: rgba(4,4,5,0.8);
         display: flex;
         justify-content: center;
         align-items: center;
         overflow-y: auto;
-        transform: scale (1);
+        transform: scale(1);
     }
 
     .navStyle {
@@ -172,5 +172,5 @@ h1,h2,h3,h4,h5{
 
     }
 
-} ;
-*/
+}
+

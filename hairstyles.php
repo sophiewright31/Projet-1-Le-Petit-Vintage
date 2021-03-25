@@ -1,5 +1,5 @@
 <?php require 'src/coiffures.php' ?>
-<?php require 'nav.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +12,10 @@
     <title>Document</title>
 </head>
 <body>
+<section class="require">
+    <?php require 'nav.php'?>
+    <h1 class="title">Nos coiffures</h1>
+</section>
     <div class= 'container flex-around'>
     <?php foreach($hairstyles as $hairstyleData): ?>
         <div class="card <?= $hairstyleData['new'] ? 'new-card' : ''?>">
@@ -27,5 +31,6 @@
     </div>
     <?php require 'footer.php'?>
     <script src="scriptnav.js"></script>
+
 </body>
 </html>

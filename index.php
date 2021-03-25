@@ -13,7 +13,8 @@
 <body>
   <section class="require">
     <?php require 'nav.php'?>
-      <div class="tramme"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>
+      <div class="trame"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>
+      <div class="tramepc"> <img id="trammeImg" src="src/background/BG_Tramme_PC.png" width="100%" height="100%"></div>
   </section>
 
 <section>
@@ -21,15 +22,15 @@
 </section>
 
 <section class="who">
-    <div class="staff-container" ><img id="staff" src="src/Coiffures/bonProfil.jpg" alt="photo de l'équipe"></div>
+    <div class="staff-container" ><img id="staff" src="src/Coiffeuses/equipe_le_petit_vintage.png" alt="photo de l'équipe"></div>
     <div class="card-who">
         <div class="card-who-header">
             <h2>Qui sommes nous?</h2>
         </div>
         <div class="card-who-body">
-            <p class="card-who-text">Passionnée de coiffure depuis toujours, c’est en famille dès l’âge de 16ans que Frédérique Lacroux commence sa formation.
-              Son style unique, intemporel et sophistiqué ainsi que sa ténacité et sa rigueur lui permettent d’intégrer dès 2011 l’équipe régionale d’Alsace de coiffure.
-              Sacrée Championne de France en coupe stylisée et coiffage en 2004, ce titre lui permet d’intégrer la prestigieuse équipe de France, qu’elle quittera après une victoire éclatante, celle du Grand Prix International en Chignon de Mariée de Prestige, au Mondial Coiffure Beauté.</p>
+            <p class="card-who-text">Dévouée à son métier, Frédérique a su s’imposer dans ce milieu grâce à un talent incomparable et à des idées toujours nouvelles et modernes.
+            Spécialiste du chignon, Frédérique maîtrise à la perfection l’art de la couleur, ce qui lui permet d’être la créatrice de nouvelles lignes de coiffure et de rejoindre en tant que formatrice l’équipe Davines.
+            Aussi à l’aise avec les coupes féminines que masculines, Frédérique Lacroux propose des conseils personnalisés destinés à révéler votre beauté.</p>
             <button class="card-who-button"><a href="whoRwe.php">Lire la suite</a></button>
         </div>
     </div>
@@ -41,14 +42,13 @@
             <h2>...une coupe vintage ?</h2>
         </div>
         <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                ncididunt ut labore</p>
+            <p class="card-text">Se dit d'un vêtement, d'un accessoire, etc.,
+                                 des décennies précédentes, remis au goût du jour.</p>
         </div>
         <div class="vintage-choice">
             <article><img src="src/Coiffures/bonProfil.jpg" height="100%" ></article>
             <article><img src="src/Coiffures/myBad.jpg" height="100%"></article>
-            <article><button class="card-button"><a href="hairstyles.php">voir la suite </a></button></article>
+            <article class="color-button"><button class="card-button"><a href="hairstyles.php">voir la suite </a></button></article>
         </div>
     </div>
 </section>
@@ -59,9 +59,7 @@
             <h2>...une coupe classique ?</h2>
         </div>
         <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                ncididunt ut labore</p>
+            <p class="card-text">Se dit, d'une chose qui mérite d'appartenir à la culture générale et est enseigné dans des classes</p>
         </div>
         <div class="classique-choice">
             <article><img src="src/Coiffures/pink.jpg" height="100%" ></article>
@@ -71,20 +69,19 @@
     </div>
 </section>
 
+
 <section class="which">
     <div class="card-rebel">
         <div class="card-header">
             <h2>...cheveux rebels ?</h2>
         </div>
         <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                ncididunt ut labore</p>
+            <p class="card-text">Se dit, d'une chose qui se prête difficilement/fortement opposé, à l'action à laquelle on le soumet</p>
         </div>
         <div class="rebel-choice">
             <article><img src="src/Coiffures/curlyPeanut.jpg" height="100%" ></article>
             <article><img src="src/Coiffures/detresse.jpg" height="100%" ></article>
-            <article><button class="card-button"><a href="hairstyles.php">voir la suite </a></button></article>
+            <article class="color-button"><button class="card-button"><a href="hairstyles.php">voir la suite </a></button></article>
         </div>
     </div>
 </section>

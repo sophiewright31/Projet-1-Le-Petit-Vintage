@@ -6,9 +6,31 @@
 h1,h2,h3,h4,h5{
   font-family: eurostile;
 }
+.staff-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.trame{
+
+  position: relative;
+  top: 60vh;
+  width: 100%;
+  margin-bottom: 50px;
+}
 
 /* MOBILE*/
 @media screen and (max-width: 800px) {
+  #staff{
+    height: 300px;
+    display: flex;
+
+  }
+  .tramepc{
+    display: none;
+  }
+
   body {
       width: 100%;
       margin: 0;
@@ -44,6 +66,16 @@ h1,h2,h3,h4,h5{
 
   /* PC */
   @media screen and (min-width: 800px) {
+    #staff{
+      margin-top: 70px;
+      height: 400px;
+      display: flex;
+
+    }
+
+    .trame{
+      display: none;
+    }
     body {
       width: 100%;
       margin: 0;
@@ -84,16 +116,17 @@ h1,h2,h3,h4,h5{
     font-family: "Eurostile", sans-serif;
   }
 
-  .tramme {
+  .tramepc {
     position: absolute;
     text-align: center;
-    margin-top: 490px;
+    margin-top: 60vh;
     padding-left: 0px;
     padding-right: 0px;
+
   }
 
   .who {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 150px;
   }
 
@@ -178,9 +211,7 @@ h1,h2,h3,h4,h5{
   .card-button {
     border: none;
     background-color: transparent;
-    color: white;
     height: 100%;
-    width: 100%;
   }
 
   article {
@@ -192,6 +223,10 @@ h1,h2,h3,h4,h5{
 
   .color-choise {
     background-color: #E3A127;
+  }
+
+  .color-button {
+    background-color: grey;
   }
 
   .card-vintage {
@@ -211,7 +246,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -235,20 +270,12 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
   }
- .staff-container{
-   display: flex;
-   justify-content: space-around;
- }
-  #staff{
-    height: 200px;
-    display: flex;
 
-  }
 
   .card-rebel {
     background-image: url("Cards/pretty-woman-3.jpg");
@@ -267,7 +294,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;

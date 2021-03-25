@@ -2,7 +2,7 @@
 <div class="header">
  <div class="header-content">
 
-    <a href="index.php"><div class="Logo"><img id="LogoImg" src="https://i.imgur.com/pzGXQd4.png"></div></a>
+    <a href="index.php"><div class="Logo"><img id="LogoImg" src="src/logo/LOGO.png"></div></a>
 
  </div>
 

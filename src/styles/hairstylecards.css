@@ -2,6 +2,12 @@
     font-family: "eurostile";
     src: url("/src/Eurostile.ttf") format('truetype');
 }
+.title{
+    margin-top: 200px;
+    font-family: Eurostile;
+    font-size: 50px;
+    color: white;
+}
 
 h1,h2,h3,h4,h5{
     font-family: eurostile;
@@ -31,11 +37,13 @@ h3 {
     background-color:white;
     margin: 15px;
     border-radius: 15px;
+    box-shadow: 1px 1px 15px #555;
 }
 
 .card img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
 }
 
 .flex-around {
@@ -76,24 +84,32 @@ p{
     body{
         width: 100%;
         margin-top: 50px;
-       background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+
+    }
+    .require{
+        height: 80vh;
+        background-image: url("../background/BG_Contact_Le_Petit_Vintage_PC.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        background-attachment: fixed;
+        background-attachment: local;
         background-size: cover;
-        font-family: Eurostile, sans-serif;
+        margin-bottom: 70px;
     }
 }
 /* MOBILE*/
 @media screen and (max-width: 800px) {
+    .require{
+        height: 100vh;
+        background-image: url("../background/BG_Contact_Le_Petit_Vintage.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+    }
     body{
         width: 100%;
         margin-top: 30px;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: Eurostile, sans-serif;
+
     }
 }

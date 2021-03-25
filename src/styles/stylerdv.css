@@ -11,9 +11,7 @@ body{
     background-size: cover;
     color: white;
     font-family: Arial;
-
 }
-
 .window{
     height: 800px;
     width: 250px;
@@ -24,14 +22,13 @@ body{
 .inactive{
     display: none;
 }
-#slide-container{
+.slide-container{
     height: 800px;
     width: 8000px;
     position: absolute;
     left: 0px;
     transition: left 0.4s;
     display: flex;
-
 }
 .title2{
     text-align: center;
@@ -42,7 +39,6 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-
 }
 .container-form{
     display: flex;
@@ -51,19 +47,17 @@ body{
     height: 50%;
     max-width: 300px;
     align-self: center;
-
 }
-
-
 .timeline{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 20px;
+    bottom: 10%;
     width: 100%;
 }
 .timeline-ok{
-    bottom: 50%;
+    bottom: 40%;
+    justify-content: space-between;
     transition: bottom 0.4s;
 }
 .dot{
@@ -84,15 +78,12 @@ body{
 .dot-current{
     border: 5px solid #F1B833;
 }
-
-
-
 .card-container{
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80%;
+    height: 55%;
 }
 .card{
     display: flex;
@@ -105,7 +96,6 @@ body{
     position: relative;
     max-width: 30%;
     min-width: 173px;
-
 }
 .alert{
     color: #ef6334;
@@ -113,13 +103,13 @@ body{
 .alert-inactive{
     display: none;
 }
-#submit0{
+.submit0{
     height: 3em;
 }
-#hair-cut-selector{
+.hair-cut-selector{
     height: 50%;
 }
-#hair-cut-choice{
+.hair-cut-choice{
     text-align: center;
     color: white;
     background-color: #F1B833;
@@ -144,7 +134,7 @@ body{
     visibility: visible;
 }
 
-#hairdressers .card {
+.hair-dresser-card{
     width: 60%;
     text-align: center;
 }
@@ -173,6 +163,15 @@ body{
     align-self: start;
     margin-left: 10px;
 }
+.result{
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px;
+    align-self: flex-end;
+    margin: 0 auto;
+    max-height: 200px;
+
+}
 @media screen and (min-width: 800px){
     body{
         background-image: url('../background/BG_Accueil_Le_Petit_Vintage_PC.jpg');
@@ -184,8 +183,25 @@ body{
         flex-direction: row;
     }
     .card{
-        height: 55%;
+        height: 80%;
         align-self: start;
+
+    }
+    .hair-cut-img {
+        position: absolute;
+        top: 18%;
+        right: 20%;
+        max-height: 60%;
+    }
+    .agenda{
+        height: 50vh;
+        align-self: start;
+    }
+    .timeline-ok{
+        bottom: 50%;
+        justify-content: space-between;
+        transition: bottom 0.7s;
+
 
     }
 

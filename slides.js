@@ -14,18 +14,29 @@ const mail = document.getElementById('email');
 const tel = document.getElementById('tel');
 const date = document.getElementById('date');
 const result = document.getElementById('result')
-
-
-
-
 let containerViewWidth;
 let lastWindowPX;
 let leftInterval ="0px";
 let dotIndex = 0;
 let frenchDate;
 let hourChosen="";
+let agenda =[
+    ["Fermé"],
+    ["Fermé"],
+    ["10h00","11h00","14h30"],
+    ["10h00","15h00"],
+    ["11h30","14h30","16h00"],
+    ["10h00","11h00","13h30","16h00"],
+    ["10h00"],
+
+]
+
 function lastWindowPXCalculator (windowWidth){
  return '-'+parseInt(windowWidth)*4+'px';
+}
+function removeListener(element){
+    element.replaceWith(element.cloneNode(true));
+
 }
 function sizeAdjustment (){
     containerViewWidth = window.innerWidth *5/6;
@@ -37,15 +48,21 @@ function sizeAdjustment (){
         slide.style.width = containerViewWidth+"px";
     }
 }
+function getClickedDot(dot){
+    return parseInt(dot.id.charAt(6));
+}
+function getChosenHour(element){
+    return element.id.substr(1,5);
+}
 sizeAdjustment();
+
 window.addEventListener('resize',sizeAdjustment);
 
 for (let nextButton of nextButtons) {
-
     nextButton.addEventListener('click',(e)=>{
         let rightInterval = slideContainer.offsetLeft -containerViewWidth;
         slideContainer.style.left = rightInterval.toString()+"px";
-        let dotIndexToFill = parseInt(e.target.id.charAt(6));
+        let dotIndexToFill = getClickedDot(e.target);
         dots[dotIndexToFill].classList.add('dot-ok');
         dots[dotIndexToFill].classList.remove('dot-current');
         dots[dotIndexToFill+1].classList.add('dot-current');
@@ -84,12 +101,12 @@ submitButton.addEventListener('click',(e)=>{
         slideContainer.style.left=lastWindowPX;
         timeline.classList.add('timeline-ok');
         for (let dot of dots) {
-        dot.replaceWith(dot.cloneNode(true));
+            removeListener(dot);
         }
-        //To remove the event listener
     }
 })
 date.addEventListener('change',()=>{
+    //Oui je sais Guillaume ça ne te plaira pas j'aurais du fragmenter ce Event Listener en plein de fonctions mais trop peur de casser pour la présentation!!! Je ferai mieux, déso...
     let chosenDate = new Date(date.value);
     let numDay = chosenDate.getDay();
     let day ="";
@@ -101,19 +118,7 @@ date.addEventListener('change',()=>{
         case 4: day = "Jeudi";break;
         case 5: day = "Vendredi";break;
         case 6: day = "Samedi";break;
-
-
     }
-    let agenda =[
-        ["Fermé"],
-        ["Fermé"],
-        ["10h00","11h00","14h30"],
-        ["10h00","15h00"],
-        ["11h30","14h30","16h00"],
-        ["10h00","11h00","13h30","16h00"],
-        ["10h00"],
-
-    ]
     let month = chosenDate.toLocaleString('default', { month: 'long' });
     frenchDate = day + " " + chosenDate.getDate() +" "+month+" "+chosenDate.getFullYear();
     let html ="";
@@ -130,13 +135,11 @@ date.addEventListener('change',()=>{
     for (const hour of hours) {
         hour.addEventListener('click',(e)=>{
             let selected = document.getElementsByClassName('selected');
-            if (selected.length === 1)selected[0].classList.remove('selected');
+            if (selected.length === 1){
+                selected[0].classList.remove('selected');
+            }
             e.target.classList.add('selected');
-            hourChosen = e.target.id.substr(1,5);
-
+            hourChosen = getChosenHour(e.target);
         })
-
     }
-
-
 })

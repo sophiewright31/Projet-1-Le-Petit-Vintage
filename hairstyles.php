@@ -26,5 +26,7 @@
         <?php endforeach; ?>
     </div>
     <?php require 'footer.php'?>
+    <script src="scriptnav.js"></script>
+
 </body>
 </html>

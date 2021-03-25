@@ -53,6 +53,7 @@
     <?php endforeach; ?>
   </div>
 </section>
+<script src="scriptnav.js"></script>
 <?php require 'footer.php'?>
 </body>
 </html>

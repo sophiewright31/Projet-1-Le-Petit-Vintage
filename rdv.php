@@ -26,7 +26,7 @@
                     <p class="errror-email alert-inactive alert"></p>
                     <input type="tel" name="tel" id="tel" required class="input-form" value = "0665146212" placeholder="téléphone">
                     <p class="errror-tel alert-inactive alert"></p>
-                    <button id= "submit0" class="slideButton next submit">Valider</button>
+                    <button id= "submit0" class="slideButton next submit0">Valider</button>
                 </div>
             </div>
             <div class="slide" id="slide2">

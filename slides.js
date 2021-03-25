@@ -14,16 +14,13 @@ const mail = document.getElementById('email');
 const tel = document.getElementById('tel');
 const date = document.getElementById('date');
 const result = document.getElementById('result')
-
-
-
-
 let containerViewWidth;
 let lastWindowPX;
 let leftInterval ="0px";
 let dotIndex = 0;
 let frenchDate;
 let hourChosen="";
+
 function lastWindowPXCalculator (windowWidth){
  return '-'+parseInt(windowWidth)*4+'px';
 }
@@ -38,10 +35,10 @@ function sizeAdjustment (){
     }
 }
 sizeAdjustment();
+
 window.addEventListener('resize',sizeAdjustment);
 
 for (let nextButton of nextButtons) {
-
     nextButton.addEventListener('click',(e)=>{
         let rightInterval = slideContainer.offsetLeft -containerViewWidth;
         slideContainer.style.left = rightInterval.toString()+"px";

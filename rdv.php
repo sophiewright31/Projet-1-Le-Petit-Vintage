@@ -18,13 +18,13 @@
             <div class="slide" id="slide1">
                 <h2 class="title2">Vos coordonnées </h2>
                 <div class="container-form">
-                    <input type="text" name="first-name" id="first-name" required class="input-form" placeholder="prénom">
+                    <input type="text" name="first-name" id="first-name" required class="input-form" value = "Olivier" placeholder="prénom">
                     <p class="errror-first-name alert-inactive alert"></p>
-                    <input type="text" name="last-name" id="last-name" required class="input-form" placeholder="nom">
+                    <input type="text" name="last-name" id="last-name" required class="input-form" value = "Chatelin" placeholder="nom">
                     <p class="errror-first-name alert-inactive alert"></p>
-                    <input type="email" name="email" id="email" required class="input-form" placeholder="adresse e-mail">
+                    <input type="email" name="email" id="email" required class="input-form" value = "olivier.chatelin@gmail.com" placeholder="adresse e-mail">
                     <p class="errror-email alert-inactive alert"></p>
-                    <input type="tel" name="tel" id="tel" required class="input-form" placeholder="téléphone">
+                    <input type="tel" name="tel" id="tel" required class="input-form" value = "0665146212" placeholder="téléphone">
                     <p class="errror-tel alert-inactive alert"></p>
                     <button id= "submit0" class="slideButton next ">Valider</button>
                 </div>

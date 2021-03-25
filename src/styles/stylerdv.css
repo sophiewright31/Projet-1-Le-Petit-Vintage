@@ -59,7 +59,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 30%;
+    bottom: 10%;
     width: 100%;
 }
 .timeline-ok{
@@ -212,7 +212,8 @@ body{
     .timeline-ok{
         bottom: 50%;
         justify-content: space-between;
-        transition: bottom 0.4s;
+        transition: bottom 0.7s;
+
 
     }
 

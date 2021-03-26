@@ -1,15 +1,26 @@
+.title{
+    margin-top: 200px;
+    font-family: Eurostile;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
 
 @media screen and (max-width: 800px) {
+    .require {
+        height: 100vh;
+        background-image: url("background/BG_presentatiosn_Le_Petit_Vintage.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+
+    }
   body {
       width: 100%;
       margin: 0;
       padding: 0;
-      background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
-      text-align: center;
+
   }
 
   .text {
@@ -20,16 +31,21 @@
 
 
 @media screen and (min-width: 800px) {
+    .require {
+        height: 80vh;
+        background-image: url("background/BG_presentatiosn_Le_Petit_Vintage_PC.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+
+    }
   body {
       width: 100%;
       margin: 0;
       padding: 0;
-      background-image: url("background/BG_Accueil_Le_Petit_Vintage_PC.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: fixed;
-      background-size: cover;
-      text-align: center;
+
   }
 
   .text {
@@ -52,13 +68,6 @@
       margin-bottom: 20px;
       flex: content;
 
-    }
-    .title {
-      font-size: 20px;
-      color: #E3A127;
-      text-decoration: underline;
-      font-style: italic;
-      margin-top: 100px;
     }
 
     .text {

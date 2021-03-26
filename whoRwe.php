@@ -12,11 +12,12 @@
 </head>
 
 <body>
-<?php require 'nav.php'?>
 
-<section>
-  <div class="title">
-    <h1>Mais qui sommes nous ?</h1>
+
+<section class="require">
+    <?php require 'nav.php'?>
+  <div >
+    <h1 class="title">Mais qui sommes nous ?</h1>
   </div>
 </section>
 

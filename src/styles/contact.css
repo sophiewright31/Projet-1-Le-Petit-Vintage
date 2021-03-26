@@ -13,10 +13,11 @@ a{
 }
 
 h1 {
+    margin-top: 150px;
+    font-family: Eurostile;
+    font-size: 50px;
     color: white;
     text-align: center;
-    margin-top: 60px;
-    display: block;
 }
 
 h3 {
@@ -28,11 +29,12 @@ h3 {
 .phone-number{
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 p {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -42,16 +44,22 @@ p {
 }
 
 @media screen and (min-width: 800px) {
+    .require {
+        height: 80vh;
+        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage_PC.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+        margin-bottom: 70px;
+
+    }
 
     body{
         width: 100%;
         margin:0;
         paddin:0;
-        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage_PC.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
+
 
     }
 
@@ -59,15 +67,21 @@ p {
 
 /* MOBILE*/
 @media screen and (max-width: 800px) {
+
+    .require {
+        height: 100vh;
+        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: local;
+        background-size: cover;
+
+    }
     /*BODY*/
     body{
         width: 100%;
         margin:0;
         paddin:0;
-        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
+
     }
 }

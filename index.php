@@ -13,7 +13,8 @@
 <body>
   <section class="require">
     <?php require 'nav.php'?>
-      <div class="tramme"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>
+      <div class="trame"> <img id="trammeImg" src="src/background/tramme-redim.png" width="100%" height="100%"></div>
+      <div class="tramepc"> <img id="trammeImg" src="src/background/BG_Tramme_PC.png" width="100%" height="100%"></div>
   </section>
 
 <section>
@@ -21,7 +22,7 @@
 </section>
 
 <section class="who">
-    <div class="staff-container" ><img id="staff" src="src/Coiffures/bonProfil.jpg" alt="photo de l'équipe"></div>
+    <div class="staff-container" ><img id="staff" src="src/Coiffeuses/equipe_le_petit_vintage.png" alt="photo de l'équipe"></div>
     <div class="card-who">
         <div class="card-who-header">
             <h2>Qui sommes nous?</h2>

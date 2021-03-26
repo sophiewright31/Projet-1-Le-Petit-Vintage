@@ -9,8 +9,11 @@
     <title>Contact</title>
 </head>
 <body>
-<?php require 'nav.php'?>
-<h1>Ou nous trouver?</h1>
+<section class="require">
+    <?php require 'nav.php'?>
+    <h1>Ou nous trouver?</h1>
+</section>
+
 
 <h3>Nos horaires d'ouverture</h3>
     <p>Lundi : Fermé</p>

@@ -18,8 +18,9 @@ body{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
-    background-color: rgb(4,4,5,0.8);
+    background-color: rgba(4,4,5,0.8);
 
 }
 
@@ -27,7 +28,7 @@ body{
 
     margin-left: 10px;
     padding: 20px;
-    background-color: rgb(226,223,234,0.5) ;
+    background-color: rgba(226,223,234,0.5) ;
 }
 .footer-bar{
     padding-top: 20px;

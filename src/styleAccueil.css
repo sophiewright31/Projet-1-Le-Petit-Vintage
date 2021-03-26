@@ -178,9 +178,7 @@ h1,h2,h3,h4,h5{
   .card-button {
     border: none;
     background-color: transparent;
-    color: white;
     height: 100%;
-    width: 100%;
   }
 
   article {
@@ -192,6 +190,10 @@ h1,h2,h3,h4,h5{
 
   .color-choise {
     background-color: #E3A127;
+  }
+
+  .color-button {
+    background-color: grey;
   }
 
   .card-vintage {
@@ -211,7 +213,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -235,7 +237,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -267,7 +269,7 @@ h1,h2,h3,h4,h5{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    height: 70px;
+    height: 60px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;

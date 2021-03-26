@@ -47,12 +47,12 @@ p {
         width: 100%;
         margin:0;
         paddin:0;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage_PC.jpg);
+        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage_PC.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
-        font-family: "Eurostile", sans-serif;
+
     }
 
 }
@@ -64,11 +64,10 @@ p {
         width: 100%;
         margin:0;
         paddin:0;
-        background-image: url(https://raw.githubusercontent.com/Magalien1/Le-Petit-Vintage/dev/src/background/BG_Accueil_Le_Petit_Vintage.jpg);
+        background-image: url("../background/BG_Coiffure_Le_Petit_Vintage.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
-        font-family: "Eurostile", sans-serif;
     }
 }

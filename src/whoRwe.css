@@ -11,22 +11,12 @@
       background-size: cover;
       text-align: center;
   }
+
+  .text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
  }
-    @font-face{
-        font-family: "eurostile";
-        src: url("/src/Eurostile.ttf") format('truetype');
-    }
-
-    h1,h2,h3,h4,h5{
-        font-family: eurostile;
-    }
-
-    .content {
-        width: 100%;
-        margin-bottom: 20px;
-        flex: content;
-
-    }
 
 
 @media screen and (min-width: 800px) {
@@ -41,9 +31,30 @@
       background-size: cover;
       text-align: center;
   }
+
+  .text {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
+
+    @font-face{
+      font-family: "eurostile";
+      src: url("/src/Eurostile.ttf") format('truetype');
+    }
+
+    h1,h2,h3,h4,h5{
+      font-family: eurostile;
+    }
+
+    .content {
+      width: 100%;
+      margin-bottom: 20px;
+      flex: content;
+
+    }
     .title {
-      font-size: 15px;
+      font-size: 20px;
       color: #E3A127;
       text-decoration: underline;
       font-style: italic;
@@ -55,13 +66,11 @@
       align-items: center;
       text-align: center;
       justify-content: center;
-      font-size: 12px;
+      font-size: 17px;
       width: auto;
       color: #F0F2F4;
-      margin-left: 140px;
-      margin-right: 140px;
       background: linear-gradient(to bottom, black, grey);
-      padding: 15px 40px 15px 40px;
+      padding: 10px 30px 10px 30px;
       box-shadow: 1px 1px 15px #555;
       border: 2px solid #E3A127;
       border-radius: 5px;
@@ -71,6 +80,7 @@
       font-size: 14px;
       color: #E3A127;
       text-decoration: underline;
+      margin-top: 80px;
     }
 
     .container {

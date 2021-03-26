@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/styles/contact.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="src/stylenav.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
 <?php require 'nav.php'?>
@@ -31,7 +31,6 @@
 <h3>Notre Adresse</h3>
 <p>7 Avenue Thiers, 33100 Bordeaux</p>
 <?php require 'footer.php'?>
-
 <script src="scriptnav.js"></script>
 </body>
 </html>

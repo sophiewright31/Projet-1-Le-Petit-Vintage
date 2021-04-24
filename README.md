@@ -10,7 +10,4 @@ The website should be responsive with implementation of media queries with css.
 
 # Language and features
 
-HTML
-PHP
-CSS : media queries, variable, flexbox
-Javascript : in order to create some interaction with the user
+HTML/ PHP/ CSS : media queries, variable, flexbox/ Javascript : in order to create some interaction with the user
